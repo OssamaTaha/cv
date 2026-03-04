@@ -9,11 +9,12 @@ venv.bak/
 
 # RenderCV output
 rendercv_output/
-*.pdf
-*.md
-*.html
-*.png
-*.typ
+# Let's not ignore all pdfs/mds, just the output directory is enough
+# but if we do, we should un-ignore README.md
+!README.md
+
+# Logs
+*.log
 
 # Typst
 .typst/
@@ -55,3 +56,4 @@ Thumbs.db
 apply_nbsp.py
 debug_yaml.py
 test_cv.yaml
+*.log
