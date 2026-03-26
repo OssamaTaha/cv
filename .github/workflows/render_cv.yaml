@@ -23,7 +23,7 @@ jobs:
       - name: Install RenderCV
         run: |
           python -m pip install --upgrade pip
-          pip install "rendercv[full]" pyyaml
+          pip install "rendercv[full]"
           
       - name: Render CV
         run: |
@@ -32,10 +32,12 @@ jobs:
       - name: Generate index.html with OG metadata
         run: |
           python << 'PYEOF'
-          import yaml, html
+          import html
+          from ruamel.yaml import YAML
 
+          yaml = YAML()
           with open("ossama_taha_cv.yaml", "r") as f:
-              data = yaml.safe_load(f)
+              data = yaml.load(f)
 
           cv = data["cv"]
           name = cv["name"]
