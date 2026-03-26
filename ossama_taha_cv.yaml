@@ -183,10 +183,10 @@ design:
 
   colors:
     body: rgb(20, 20, 20)
-    name: rgb(128, 0, 32)
+    name: rgb(44, 62, 80)
     headline: rgb(80, 80, 80)
     connections: rgb(80, 80, 80)
-    section_titles: rgb(128, 0, 32)
+    section_titles: rgb(44, 62, 80)
     links: rgb(100, 100, 100)
     footer: rgb(120, 120, 120)
     top_note: rgb(120, 120, 120)
