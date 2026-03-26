@@ -13,10 +13,12 @@ cv:
   sections:
     summary:
       - >
-        Data Engineer with hands-on experience in building scalable ETL pipelines, automated reporting systems, 
-        and executive analytics platforms. Proficient in Python, SQL, Power BI, and cloud technologies. 
-        Proven track record of transforming raw data into actionable insights, reducing reporting time by 10x, 
-        and developing AI-powered solutions for business intelligence.
+        Data Engineer with hands-on experience in building scalable ETL
+        pipelines, automated reporting systems,  and executive analytics
+        platforms. Proficient in Python, SQL, Power BI, and cloud
+        technologies.  Proven track record of transforming raw data into
+        actionable insights, reducing reporting time by 10x,  and developing
+        AI-powered solutions for business intelligence.
 
     experience:
       - company: Nile for Cables and Electronics
@@ -25,104 +27,146 @@ cv:
         start_date: 2024-11
         end_date: present
         highlights:
-          - "Engineered a semi-realtime automated reporting system replacing Power BI, improving reporting speed by 10x"
-          - "Designed end-to-end ETL pipelines using PostgreSQL and Dolt (version-controlled SQL database)"
-          - "Built executive dashboards supporting sales forecasting and strategic business decisions"
+          - "Engineered a semi-realtime automated reporting system replacing
+            Power BI, improving reporting speed by 10x"
+          - "Designed end-to-end ETL pipelines using PostgreSQL and Dolt
+            (version-controlled SQL database)"
+          - "Built executive dashboards supporting sales forecasting and
+            strategic business decisions"
           - "Led quarterly sales performance evaluations using consolidated KPIs"
-          - "Developed a local AI chatbot using open-source Hugging Face models for natural language data querying"
-      
+          - "Developed a local AI chatbot using open-source Hugging Face models
+            for natural language data querying"
+
       - company: Samsung Innovation Campus
         position: Big Data Engineer
         location: Giza, Egypt
         start_date: 2024-07
         end_date: 2024-10
         highlights:
-          - "Built scalable ETL pipelines using Apache Spark, Kafka, and Hadoop ecosystem"
-          - "Performed exploratory data analysis and feature engineering for analytical use cases"
-          - "Deployed data workflows on AWS EC2 and S3 for production environments"
+          - "Built scalable ETL pipelines using Apache Spark, Kafka, and Hadoop
+            ecosystem"
+          - "Performed exploratory data analysis and feature engineering for
+            analytical use cases"
+          - "Deployed data workflows on AWS EC2 and S3 for production
+            environments"
 
     projects:
       - name: Atlas Analytics Platform
         link: https://github.com/OssamaTaha/atlas-analytics-platform
         highlights:
-          - "**Problem:** Enterprise needed unified analytics platform for multi-department data visibility"
-          - "**Process:** Built full-stack platform with Python backend, real-time ETL pipelines, and interactive dashboards"
-          - "**Solution:** Deployed production system with role-based access control, automated data sync, and real-time reporting"
+          - "**Problem:** Enterprise needed unified analytics platform for
+            multi-department data visibility"
+          - "**Process:** Built full-stack platform with Python backend,
+            real-time ETL pipelines, and interactive dashboards"
+          - "**Solution:** Deployed production system with role-based access
+            control, automated data sync, and real-time reporting"
           - "**Tech Stack:** Python, PostgreSQL, Docker, AWS EC2/S3, Streamlit"
-          - "**Business Impact:** Enabled data-driven decisions across 3 departments, reduced manual reporting by 80%"
+          - "**Business Impact:** Enabled data-driven decisions across 3
+            departments, reduced manual reporting by 80%"
 
       - name: EGXTracker — Egyptian Stock Exchange
         link: https://github.com/OssamaTaha/EGXTracker
         highlights:
-          - "**Problem:** Retail investors lacked real-time tools for tracking EGX stock performance"
-          - "**Process:** Developed web scraping pipelines, REST APIs, and mobile-responsive dashboard"
-          - "**Solution:** Live stock tracker with price alerts, historical analysis, and portfolio management"
-          - "**Tech Stack:** Python, FastAPI, SQLite, React Native, BeautifulSoup"
-          - "**Business Impact:** Deployed to production serving real-time data to active users"
+          - "**Problem:** Retail investors lacked real-time tools for tracking
+            EGX stock performance"
+          - "**Process:** Developed web scraping pipelines, REST APIs, and
+            mobile-responsive dashboard"
+          - "**Solution:** Live stock tracker with price alerts, historical
+            analysis, and portfolio management"
+          - "**Tech Stack:** Python, FastAPI, SQLite, React Native,
+            BeautifulSoup"
+          - "**Business Impact:** Deployed to production serving real-time data
+            to active users"
 
       - name: Sales Reporting ETL & Data Warehouse
         link: https://github.com/OssamaTaha/reportingSystem
         highlights:
-          - "**Problem:** Fragmented sales data across multiple Excel files making reporting slow and error-prone"
-          - "**Process:** Engineered robust ETL pipeline with Dolt (version-controlled data warehouse) and automated scheduling"
-          - "**Solution:** Centralized reporting system with AI chatbot for natural language data queries"
-          - "**Tech Stack:** Python, Dolt, SQL, Pandas, Dash, Hugging Face Transformers"
-          - "**Business Impact:** Reduced reporting time from hours to seconds, improved data accuracy by 100%"
+          - "**Problem:** Fragmented sales data across multiple Excel files
+            making reporting slow and error-prone"
+          - "**Process:** Engineered robust ETL pipeline with Dolt
+            (version-controlled data warehouse) and automated scheduling"
+          - "**Solution:** Centralized reporting system with AI chatbot for
+            natural language data queries"
+          - "**Tech Stack:** Python, Dolt, SQL, Pandas, Dash, Hugging Face
+            Transformers"
+          - "**Business Impact:** Reduced reporting time from hours to seconds,
+            improved data accuracy by 100%"
 
       - name: GoldTracker EGP
         link: https://github.com/OssamaTaha/gold-tracker-egp
         highlights:
-          - "**Problem:** Egyptian market lacked consolidated gold price data with analytics"
-          - "**Process:** Built automated ETL pipeline with web scraping and price prediction models"
-          - "**Solution:** Real-time dashboard with AI-driven buy/sell signals and market analytics"
+          - "**Problem:** Egyptian market lacked consolidated gold price data
+            with analytics"
+          - "**Process:** Built automated ETL pipeline with web scraping and
+            price prediction models"
+          - "**Solution:** Real-time dashboard with AI-driven buy/sell signals
+            and market analytics"
           - "**Tech Stack:** Python, Streamlit, Plotly, SQLite, Scikit-learn"
-          - "**Business Impact:** Automated daily price updates replacing manual market research"
+          - "**Business Impact:** Automated daily price updates replacing manual
+            market research"
 
       - name: Job Hunter — AI-Powered Job Aggregator
         link: https://github.com/OssamaTaha/job-hunter
         highlights:
-          - "**Problem:** Job seekers spent hours checking multiple job boards manually"
-          - "**Process:** Built automated scraper aggregating jobs from multiple sources with AI categorization"
-          - "**Solution:** Centralized portal with filtering, alerts, and application tracking"
-          - "**Tech Stack:** Next.js, Python, Puppeteer, PostgreSQL, Google CSE API"
-          - "**Business Impact:** Automated job aggregation saving 5+ hours weekly per user"
+          - "**Problem:** Job seekers spent hours checking multiple job boards
+            manually"
+          - "**Process:** Built automated scraper aggregating jobs from multiple
+            sources with AI categorization"
+          - "**Solution:** Centralized portal with filtering, alerts, and
+            application tracking"
+          - "**Tech Stack:** Next.js, Python, Puppeteer, PostgreSQL, Google CSE
+            API"
+          - "**Business Impact:** Automated job aggregation saving 5+ hours
+            weekly per user"
 
       - name: Weebo — Desktop Wallpaper Manager
         link: https://github.com/OssamaTaha/weebo
         highlights:
-          - "**Problem:** Linux users lacked modern tools for managing dynamic wallpapers across multi-monitor setups"
-          - "**Process:** Developed Electron-based desktop app with wallpaper scheduling and API integrations"
-          - "**Solution:** Full-featured manager with Unsplash/Pexels integration, scheduling, and system tray"
+          - "**Problem:** Linux users lacked modern tools for managing dynamic
+            wallpapers across multi-monitor setups"
+          - "**Process:** Developed Electron-based desktop app with wallpaper
+            scheduling and API integrations"
+          - "**Solution:** Full-featured manager with Unsplash/Pexels
+            integration, scheduling, and system tray"
           - "**Tech Stack:** Electron, JavaScript, Python, Node.js"
 
       - name: Order Management Bot
         link: https://github.com/OssamaTaha/Order-Management-Bot
         highlights:
-          - "**Problem:** Manual order processing on social media was time-consuming and error-prone"
-          - "**Process:** Developed modular Telegram bot with OCR for product code extraction"
-          - "**Solution:** Automated order intake, inventory management, and customer notifications"
+          - "**Problem:** Manual order processing on social media was
+            time-consuming and error-prone"
+          - "**Process:** Developed modular Telegram bot with OCR for product
+            code extraction"
+          - "**Solution:** Automated order intake, inventory management, and
+            customer notifications"
           - "**Tech Stack:** Python, Telegram API, SQLite, Tesseract OCR"
-          - "**Business Impact:** Eliminated manual order entry, reducing processing time by 90%"
+          - "**Business Impact:** Eliminated manual order entry, reducing
+            processing time by 90%"
 
       - name: SIC Fraud Detection
         link: https://github.com/OssamaTaha/SIC_FraudDetection
         highlights:
-          - "**Problem:** Identifying fraudulent transactions in large datasets with high precision"
-          - "**Process:** Implemented ML pipeline with extensive feature engineering and model optimization"
-          - "**Solution:** Model achieving 95%+ detection accuracy for fraud identification"
+          - "**Problem:** Identifying fraudulent transactions in large datasets
+            with high precision"
+          - "**Process:** Implemented ML pipeline with extensive feature
+            engineering and model optimization"
+          - "**Solution:** Model achieving 95%+ detection accuracy for fraud
+            identification"
           - "**Tech Stack:** Python, Scikit-learn, Pandas, Jupyter, XGBoost"
 
     skills:
       - label: Programming & Scripting
         details: Python, SQL, Bash, JavaScript, HTML/CSS
       - label: Data Engineering
-        details: ETL, Data Pipelines, Apache Spark, Kafka, Hadoop, PostgreSQL, MySQL, SQLite
+        details: ETL, Data Pipelines, Apache Spark, Kafka, Hadoop, PostgreSQL, MySQL,
+          SQLite
       - label: Cloud & Infrastructure
         details: AWS (EC2, S3, Lambda), Docker, Linux Server Administration
       - label: BI & Visualization
         details: Power BI, DAX, Tableau, Excel, Dash, Streamlit, Plotly
       - label: AI & Machine Learning
-        details: Hugging Face Transformers, Scikit-learn, TensorFlow, NLP, Local LLM Deployment
+        details: Hugging Face Transformers, Scikit-learn, TensorFlow, NLP, Local LLM
+          Deployment
       - label: Automation & Tools
         details: n8n, OpenClaw, KiloCode, Git, GitHub Actions, Dolt, Jupyter, VS Code
 
@@ -133,47 +177,67 @@ cv:
         start_date: 2019-09
         end_date: 2023-06
         highlights:
-          - "Strong foundation in financial analysis, business intelligence, and data-driven decision making"
-          - "Coursework in statistics, quantitative methods, and business analytics"
-          - "Self-taught in programming, data engineering, and cloud technologies through professional certifications"
+          - "Strong foundation in financial analysis, business intelligence, and
+            data-driven decision making"
+          - "Coursework in statistics, quantitative methods, and business
+            analytics"
+          - "Self-taught in programming, data engineering, and cloud
+            technologies through professional certifications"
 
     certifications:
       - name: "IBM Data Analyst Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/F89JMCNKNFNQ
         highlights:
-          - "Prepared for a career as a data analyst with job-ready skills including Excel, SQL, Python, data visualization, and AI tools — [Verify](https://www.coursera.org/account/accomplishments/professional-cert/F89JMCNKNFNQ)"
+          - "Prepared for a career as a data analyst with job-ready skills
+            including Excel, SQL, Python, data visualization, and AI tools —
+            [Verify](https://www.coursera.org/account/accomplishments/professio\
+            nal-cert/F89JMCNKNFNQ)"
       - name: "Google Data Analytics Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G
         highlights:
-          - "Trained in data cleaning, analysis, visualization, and storytelling using spreadsheets, SQL, Tableau, and R programming — [Verify](https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G)"
+          - "Trained in data cleaning, analysis, visualization, and storytelling
+            using spreadsheets, SQL, Tableau, and R programming —
+            [Verify](https://www.coursera.org/account/accomplishments/professio\
+            nal-cert/Y35CJWQ37Y2G)"
       - name: "IBM Data Science Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG
         highlights:
-          - "Built data science skills including machine learning, data analysis, Python, SQL, and applied data science capstone projects — [Verify](https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG)"
+          - "Built data science skills including machine learning, data
+            analysis, Python, SQL, and applied data science capstone projects —
+            [Verify](https://www.coursera.org/account/accomplishments/professio\
+            nal-cert/5UWB6GVS3ZWG)"
       - name: "IBM Data Engineer Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
         highlights:
-          - "Covered ETL pipelines, data warehousing, big data technologies (Spark, Hadoop, Kafka), and cloud deployment — [Verify](https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7)"
+          - "Covered ETL pipelines, data warehousing, big data technologies
+            (Spark, Hadoop, Kafka), and cloud deployment —
+            [Verify](https://www.coursera.org/account/accomplishments/professio\
+            nal-cert/IY9SQERPCDQ7)"
       - name: "IBM AI Engineering Professional Certificate (In Progress)"
         highlights:
-          - "Building AI engineering skills including deep learning, neural networks, and practical AI application development"
+          - "Building AI engineering skills including deep learning, neural
+            networks, and practical AI application development"
       - name: "Python for Everybody Specialization (Coursera)"
         link: https://www.coursera.org/account/accomplishments/specialization/FBWPLGLDYABW
         highlights:
-          - "Developed Python programming skills for data gathering, cleaning, analysis, and visualization — [Verify](https://www.coursera.org/account/accomplishments/specialization/FBWPLGLDYABW)"
+          - "Developed Python programming skills for data gathering, cleaning,
+            analysis, and visualization —
+            [Verify](https://www.coursera.org/account/accomplishments/specializ\
+            ation/FBWPLGLDYABW)"
       - name: "Samsung Innovation Campus Big Data Engineering Certificate"
         highlights:
-          - "Completed intensive training in big data infrastructure, distributed computing, and data engineering fundamentals"
+          - "Completed intensive training in big data infrastructure,
+            distributed computing, and data engineering fundamentals"
 
     languages:
-     - label: Languages
-       details: "Arabic: Native | English: Professional | Russian: Basic"
+      - label: Languages
+        details: "Arabic: Native | English: Professional | Russian: Basic"
 
 design:
   theme: classic
-  
+
   page:
-    size: a4
+    size: us-letter
     top_margin: 0.5cm
     bottom_margin: 0.5cm
     left_margin: 0.5cm
@@ -183,65 +247,65 @@ design:
 
   colors:
     body: rgb(20, 20, 20)
-    name: rgb(25, 65, 130)
+    name: rgb(0, 128, 255)
     headline: rgb(80, 80, 80)
     connections: rgb(80, 80, 80)
-    section_titles: rgb(25, 65, 130)
-    links: rgb(40, 100, 180)
+    section_titles: rgb(0, 128, 255)
+    links: rgb(100, 100, 100)
     footer: rgb(120, 120, 120)
     top_note: rgb(120, 120, 120)
 
   typography:
-    line_spacing: 0.52em
-    alignment: justified 
+    line_spacing: 0.46em
+    alignment: justified
     date_and_location_column_alignment: right
-    font_family: 
-      body: Roboto 
+    font_family:
+      body: Roboto
       name: Roboto
       headline: Roboto
       connections: Roboto
       section_titles: Roboto
     font_size:
-      body: 10.5pt
+      body: 10.51pt
       name: 28pt
-      headline: 14.5pt
+      headline: 19.8pt
       connections: 10pt
-      section_titles: 12pt
+      section_titles: 16.49pt
     small_caps:
-      name: false
-      headline: false
+      name: true
+      headline: true
       connections: false
       section_titles: true
     bold:
       name: true
-      headline: false
+      headline: true
       connections: false
       section_titles: true
 
   links:
-    underline: false
-    show_external_link_icon: false
+    underline: true
+    show_external_link_icon: true
 
   header:
-    alignment: center 
+    alignment: center
     photo_width: 3.5cm
-    photo_position: left 
+    photo_position: left
     photo_space_left: 0.4cm
     photo_space_right: 0.4cm
     space_below_name: 0.15cm
     space_below_headline: 0.15cm
     space_below_connections: 0.25cm
     connections:
-      phone_number_format: national 
+      phone_number_format: E164
       hyperlink: true
       show_icons: true
-      display_urls_instead_of_usernames: false
-      separator: ''
+      display_urls_instead_of_usernames: true
+      separator: "|"
       space_between_connections: 0.4cm
 
   section_titles:
-    type: with_partial_line
-    line_thickness: 0.5pt
+    type: with_full_line
+    line_thickness: 0.63pt
     space_above: 0.2cm
     space_below: 0.1cm
 
@@ -262,14 +326,14 @@ design:
       space_above: 0cm
       space_left: 0cm
     highlights:
-      bullet: "•" 
+      bullet: •
       nested_bullet: "•"
       space_left: 0.15cm
       space_above: 0cm
       space_between_items: 0cm
       space_between_bullet_and_text: 0.5em
 
-  templates: 
+  templates:
     top_note: '*LAST_UPDATED CURRENT_DATE*'
     single_date: MONTH_ABBREVIATION YEAR
     date_range: START_DATE – END_DATE
