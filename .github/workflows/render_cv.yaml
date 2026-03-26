@@ -29,12 +29,58 @@ jobs:
         run: |
           rendercv render ossama_taha_cv.yaml
           
+      - name: Generate index.html with OG metadata
+        run: |
+          python << 'PYEOF'
+          import yaml, html
+
+          with open("ossama_taha_cv.yaml", "r") as f:
+              data = yaml.safe_load(f)
+
+          cv = data["cv"]
+          name = cv["name"]
+          headline = cv["headline"]
+          summary_text = cv["sections"]["summary"][0].strip()
+
+          # Truncate to ~300 chars for OG description (best practice)
+          og_desc = summary_text[:300].rsplit(" ", 1)[0] + "..." if len(summary_text) > 300 else summary_text
+          safe_title = html.escape(f"{name} - {headline}")
+          safe_desc = html.escape(og_desc)
+          pdf_url = "https://OssamaTaha.github.io/cv/Ossama_Taha_CV.pdf"
+          img_url = "https://OssamaTaha.github.io/cv/thumbnail.png"
+          page_url = "https://OssamaTaha.github.io/cv/"
+
+          page = f"""<!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <title>{safe_title} - Curriculum Vitae</title>
+            <meta property="og:title" content="{safe_title}">
+            <meta property="og:description" content="{safe_desc}">
+            <meta property="og:image" content="{img_url}">
+            <meta property="og:url" content="{page_url}">
+            <meta property="og:type" content="website">
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:title" content="{safe_title}">
+            <meta name="twitter:description" content="{safe_desc}">
+            <meta name="twitter:image" content="{img_url}">
+            <meta http-equiv="refresh" content="0; URL={pdf_url}" />
+            <script>window.location.href = "{pdf_url}";</script>
+          </head>
+          <body>
+            <p>If you are not redirected automatically, follow this <a href="{pdf_url}">link to my CV</a>.</p>
+          </body>
+          </html>"""
+
+          with open("rendercv_output/index.html", "w") as f:
+              f.write(page)
+          print("Generated index.html with OG metadata from YAML")
+          PYEOF
+
       - name: Prepare Deployment
         run: |
           # Copy the first page PNG to the root of the deployment directory as thumbnail.png
           cp ./rendercv_output/Ossama_Taha_CV_1.png ./rendercv_output/thumbnail.png
-          # Copy our new index.html wrapper into the deployment directory
-          cp index.html ./rendercv_output/
           
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
