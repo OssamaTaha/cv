@@ -173,7 +173,7 @@ design:
   theme: classic
   
   page:
-    size: us-letter 
+    size: a4
     top_margin: 0.5cm
     bottom_margin: 0.5cm
     left_margin: 0.5cm
@@ -204,9 +204,9 @@ design:
     font_size:
       body: 10.5pt
       name: 28pt
-      headline: 14pt
+      headline: 14.5pt
       connections: 10pt
-      section_titles: 11.5pt
+      section_titles: 12pt
     small_caps:
       name: false
       headline: false
