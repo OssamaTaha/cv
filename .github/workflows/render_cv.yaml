@@ -32,7 +32,7 @@ jobs:
       - name: Generate index.html with OG metadata
         run: |
           python << 'PYEOF'
-          import html
+          import html, os
           from ruamel.yaml import YAML
 
           yaml = YAML()
@@ -49,7 +49,8 @@ jobs:
           safe_title = html.escape(f"{name} - {headline}")
           safe_desc = html.escape(og_desc)
           pdf_url = "https://OssamaTaha.github.io/cv/Ossama_Taha_CV.pdf"
-          img_url = "https://OssamaTaha.github.io/cv/thumbnail.png"
+          sha = os.environ.get("GITHUB_SHA", "dev")[:7]
+          img_url = f"https://OssamaTaha.github.io/cv/thumbnail.png?v={sha}"
           page_url = "https://OssamaTaha.github.io/cv/"
 
           page = f"""<!DOCTYPE html>
