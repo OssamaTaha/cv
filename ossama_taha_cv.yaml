@@ -133,17 +133,6 @@ cv:
           - "**Business Impact:** 90% cost reduction vs traditional infra,
             auto-scaling, zero server management, sub-second query performance"
 
-      - name: SIC Fraud Detection — ML Pipeline
-        link: https://github.com/OssamaTaha/SIC_FraudDetection
-        highlights:
-          - "**Problem:** Identifying fraudulent transactions in large datasets
-            with high precision"
-          - "**Process:** Implemented ML pipeline with extensive feature
-            engineering and model optimization"
-          - "**Solution:** Model achieving 95%+ detection accuracy for fraud
-            identification"
-          - "**Tech Stack:** Python, Scikit-learn, Pandas, Jupyter, XGBoost"
-
     skills:
       - label: Programming & Scripting
         details: Python, SQL, Bash, JavaScript, TypeScript, HTML/CSS
@@ -208,16 +197,11 @@ cv:
         highlights:
           - "Building AI engineering skills including deep learning, neural
             networks, and practical AI application development"
-      - name: "Python for Everybody Specialization (Coursera)"
-        link: https://www.coursera.org/account/accomplishments/specialization/FBWPLGLDYABW
-        highlights:
-          - "Developed Python programming skills for data gathering, cleaning,
-            analysis, and visualization —
-            [Verify](https://www.coursera.org/account/accomplishments/specializ\\\n            ation/FBWPLGLDYABW)"
-      - name: "Samsung Innovation Campus Big Data Engineering Certificate"
+      - name: "Samsung Innovation Campus — Big Data Engineering Certificate"
         highlights:
           - "Completed intensive training in big data infrastructure,
             distributed computing, and data engineering fundamentals"
+          - "**Top Achiever (#1)** in the Big Data Engineering track"
 
     languages:
       - label: Languages
