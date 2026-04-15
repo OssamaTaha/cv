@@ -119,19 +119,19 @@ cv:
           - "**Business Impact:** Enabled data-driven decisions across 3
             departments, reduced manual reporting by 80%"
 
-      - name: Sales Reporting ETL & Data Warehouse
-        link: https://github.com/OssamaTaha/reportingSystem
+      - name: AWS Cloud Data Pipeline — Serverless ETL with IaC
+        link: https://github.com/OssamaTaha/aws-cloud-data-pipeline
         highlights:
-          - "**Problem:** Fragmented sales data across multiple Excel files
-            making reporting slow and error-prone"
-          - "**Process:** Engineered robust ETL pipeline with Dolt
-            (version-controlled data warehouse) and automated scheduling"
-          - "**Solution:** Centralized reporting system with AI chatbot for
-            natural language data queries"
-          - "**Tech Stack:** Python, Dolt, SQL, Pandas, Dash, Hugging Face
-            Transformers"
-          - "**Business Impact:** Reduced reporting time from hours to seconds,
-            improved data accuracy by 100%"
+          - "**Problem:** On-premise data infrastructure lacked scalability,
+            reliability, and cost efficiency for growing data volumes"
+          - "**Process:** Designed S3 data lake architecture with Glue ETL,
+            Athena serverless queries, and Step Functions orchestration"
+          - "**Solution:** Fully serverless pipeline with Terraform IaC —
+            deploy entire infrastructure with single command"
+          - "**Tech Stack:** AWS (S3, Glue, Athena, Lambda, Step Functions,
+            CloudWatch), Terraform, Python, PySpark, Docker"
+          - "**Business Impact:** 90% cost reduction vs traditional infra,
+            auto-scaling, zero server management, sub-second query performance"
 
       - name: SIC Fraud Detection — ML Pipeline
         link: https://github.com/OssamaTaha/SIC_FraudDetection
@@ -151,8 +151,9 @@ cv:
         details: ETL/ELT Pipelines, Apache Airflow, Apache Spark, Apache Kafka,
           Hadoop, dbt, Data Modeling (Star Schema), PostgreSQL, MySQL, SQLite
       - label: Cloud & Infrastructure
-        details: AWS (EC2, S3, Lambda), Docker, Docker Compose, Linux Server
-          Administration, Nginx, GitHub Actions (CI/CD)
+        details: AWS (S3, Glue, Athena, Lambda, Step Functions, EC2), Terraform,
+          Docker, Docker Compose, Linux Server Administration, Nginx,
+          GitHub Actions (CI/CD)
       - label: BI & Visualization
         details: Power BI, DAX, Tableau, Excel, Dash, Streamlit, Plotly
       - label: AI & Machine Learning
