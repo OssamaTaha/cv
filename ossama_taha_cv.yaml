@@ -161,12 +161,9 @@ cv:
         start_date: 2019-09
         end_date: 2023-06
         highlights:
-          - "Strong foundation in financial analysis, business intelligence, and
-            data-driven decision making"
-          - "Coursework in statistics, quantitative methods, and business
-            analytics"
           - "Self-taught in programming, data engineering, and cloud
-            technologies through professional certifications"
+            technologies through professional certifications and hands-on
+            project work"
 
     certifications:
       - name: "IBM Data Analyst Professional Certificate"
