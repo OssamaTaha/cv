@@ -78,6 +78,20 @@ cv:
           - "**Business Impact:** Sub-second data latency, automated alerting on
             threshold breaches, real-time operational visibility"
 
+      - name: AWS Cloud Data Pipeline — Serverless ETL with IaC
+        link: https://github.com/OssamaTaha/aws-cloud-data-pipeline
+        highlights:
+          - "**Problem:** On-premise data infrastructure lacked scalability,
+            reliability, and cost efficiency for growing data volumes"
+          - "**Process:** Designed S3 data lake architecture with Glue ETL,
+            Athena serverless queries, and Step Functions orchestration"
+          - "**Solution:** Fully serverless pipeline with Terraform IaC —
+            deploy entire infrastructure with single command"
+          - "**Tech Stack:** AWS (S3, Glue, Athena, Lambda, Step Functions,
+            CloudWatch), Terraform, Python, PySpark, Docker"
+          - "**Business Impact:** 90% cost reduction vs traditional infra,
+            auto-scaling, zero server management, sub-second query performance"
+
       - name: dbt Data Warehouse — Star Schema Design & Transformation
         link: https://github.com/OssamaTaha/dbt-data-warehouse
         highlights:
@@ -118,20 +132,6 @@ cv:
           - "**Tech Stack:** Python, PostgreSQL, Docker, AWS EC2/S3, Streamlit"
           - "**Business Impact:** Enabled data-driven decisions across 3
             departments, reduced manual reporting by 80%"
-
-      - name: AWS Cloud Data Pipeline — Serverless ETL with IaC
-        link: https://github.com/OssamaTaha/aws-cloud-data-pipeline
-        highlights:
-          - "**Problem:** On-premise data infrastructure lacked scalability,
-            reliability, and cost efficiency for growing data volumes"
-          - "**Process:** Designed S3 data lake architecture with Glue ETL,
-            Athena serverless queries, and Step Functions orchestration"
-          - "**Solution:** Fully serverless pipeline with Terraform IaC —
-            deploy entire infrastructure with single command"
-          - "**Tech Stack:** AWS (S3, Glue, Athena, Lambda, Step Functions,
-            CloudWatch), Terraform, Python, PySpark, Docker"
-          - "**Business Impact:** 90% cost reduction vs traditional infra,
-            auto-scaling, zero server management, sub-second query performance"
 
     skills:
       - label: Programming & Scripting
