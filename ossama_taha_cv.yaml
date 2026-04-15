@@ -13,12 +13,11 @@ cv:
   sections:
     summary:
       - >
-        Data Engineer with hands-on experience in building scalable ETL
-        pipelines, automated reporting systems,  and executive analytics
-        platforms. Proficient in Python, SQL, Power BI, and cloud
-        technologies.  Proven track record of transforming raw data into
-        actionable insights, reducing reporting time by 10x,  and developing
-        AI-powered solutions for business intelligence.
+        Data Engineer with 2+ years building production ETL pipelines,
+        orchestrated data workflows, and real-time streaming systems.
+        Proficient in Python, SQL, Apache Airflow, Kafka, dbt, and AWS.
+        Proven track record of reducing reporting time by 10x through
+        automation and building scalable data platforms from scratch.
 
     experience:
       - company: Nile for Cables and Electronics
@@ -51,6 +50,62 @@ cv:
             environments"
 
     projects:
+      - name: Airflow ETL Pipeline — Multi-Source Data Orchestration
+        link: https://github.com/OssamaTaha/airflow-etl-pipeline
+        highlights:
+          - "**Problem:** Manual data extraction from multiple APIs was
+            error-prone and lacked scheduling, monitoring, or failure recovery"
+          - "**Process:** Designed 4 production DAGs with task dependencies,
+            dynamic task mapping, XCom data passing, and automated retry logic"
+          - "**Solution:** End-to-end orchestrated pipeline extracting from 3
+            API sources, transforming in staging, and loading into PostgreSQL"
+          - "**Tech Stack:** Apache Airflow, Docker, PostgreSQL, Python,
+            Streamlit, GitHub Actions"
+          - "**Business Impact:** Fully automated daily/weekly data ingestion
+            with monitoring dashboard, zero manual intervention required"
+
+      - name: Kafka Streaming Pipeline — Real-Time Data Processing
+        link: https://github.com/OssamaTaha/kafka-streaming-pipeline
+        highlights:
+          - "**Problem:** Batch processing couldn't meet real-time analytics
+            requirements for stock monitoring and IoT telemetry"
+          - "**Process:** Built event-driven architecture with Kafka producers,
+            consumer groups, windowed aggregation, and dead letter queues"
+          - "**Solution:** Real-time pipeline processing 1000+ events/sec with
+            live dashboard, alerting, and PostgreSQL sink"
+          - "**Tech Stack:** Apache Kafka, Docker, Python, PostgreSQL, Streamlit,
+            Pydantic, GitHub Actions"
+          - "**Business Impact:** Sub-second data latency, automated alerting on
+            threshold breaches, real-time operational visibility"
+
+      - name: dbt Data Warehouse — Star Schema Design & Transformation
+        link: https://github.com/OssamaTaha/dbt-data-warehouse
+        highlights:
+          - "**Problem:** Raw operational data lacked dimensional structure for
+            efficient analytics and BI tool consumption"
+          - "**Process:** Designed star schema with fact and dimension tables,
+            built 15+ dbt models across staging/intermediate/marts layers"
+          - "**Solution:** Production-grade data warehouse with automated testing,
+            documentation, SCD Type 2 tracking, and incremental processing"
+          - "**Tech Stack:** dbt-core, PostgreSQL, Docker, Jinja, Python, Faker,
+            Streamlit, GitHub Actions"
+          - "**Business Impact:** Reduced query complexity by 70%, enabled
+            self-service analytics, 99.9% data quality via dbt tests"
+
+      - name: Agentic AI Workflow — Multi-Agent DataOps Automation
+        link: https://github.com/OssamaTaha/agentic-ai-workflow
+        highlights:
+          - "**Problem:** Data engineering operations required manual monitoring,
+            debugging, and intervention across multiple systems"
+          - "**Process:** Built multi-agent system with orchestrator pattern, 5
+            specialized agents, tool integration, and persistent memory"
+          - "**Solution:** Natural language interface for DataOps — agents
+            autonomously monitor pipelines, run quality checks, debug failures"
+          - "**Tech Stack:** LangChain, LangGraph, Python, PostgreSQL, Streamlit,
+            Docker, OpenAI/Ollama, GitHub Actions"
+          - "**Business Impact:** Reduced mean-time-to-resolution for pipeline
+            failures by 70%, automated 90% of routine monitoring tasks"
+
       - name: Atlas Analytics Platform
         link: https://github.com/OssamaTaha/atlas-analytics-platform
         highlights:
@@ -63,20 +118,6 @@ cv:
           - "**Tech Stack:** Python, PostgreSQL, Docker, AWS EC2/S3, Streamlit"
           - "**Business Impact:** Enabled data-driven decisions across 3
             departments, reduced manual reporting by 80%"
-
-      - name: EGXTracker — Egyptian Stock Exchange
-        link: https://github.com/OssamaTaha/EGXTracker
-        highlights:
-          - "**Problem:** Retail investors lacked real-time tools for tracking
-            EGX stock performance"
-          - "**Process:** Developed web scraping pipelines, REST APIs, and
-            mobile-responsive dashboard"
-          - "**Solution:** Live stock tracker with price alerts, historical
-            analysis, and portfolio management"
-          - "**Tech Stack:** Python, FastAPI, SQLite, React Native,
-            BeautifulSoup"
-          - "**Business Impact:** Deployed to production serving real-time data
-            to active users"
 
       - name: Sales Reporting ETL & Data Warehouse
         link: https://github.com/OssamaTaha/reportingSystem
@@ -92,58 +133,7 @@ cv:
           - "**Business Impact:** Reduced reporting time from hours to seconds,
             improved data accuracy by 100%"
 
-      - name: GoldTracker EGP
-        link: https://github.com/OssamaTaha/gold-tracker-egp
-        highlights:
-          - "**Problem:** Egyptian market lacked consolidated gold price data
-            with analytics"
-          - "**Process:** Built automated ETL pipeline with web scraping and
-            price prediction models"
-          - "**Solution:** Real-time dashboard with AI-driven buy/sell signals
-            and market analytics"
-          - "**Tech Stack:** Python, Streamlit, Plotly, SQLite, Scikit-learn"
-          - "**Business Impact:** Automated daily price updates replacing manual
-            market research"
-
-      - name: Job Hunter — AI-Powered Job Aggregator
-        link: https://github.com/OssamaTaha/job-hunter
-        highlights:
-          - "**Problem:** Job seekers spent hours checking multiple job boards
-            manually"
-          - "**Process:** Built automated scraper aggregating jobs from multiple
-            sources with AI categorization"
-          - "**Solution:** Centralized portal with filtering, alerts, and
-            application tracking"
-          - "**Tech Stack:** Next.js, Python, Puppeteer, PostgreSQL, Google CSE
-            API"
-          - "**Business Impact:** Automated job aggregation saving 5+ hours
-            weekly per user"
-
-      - name: Weebo — Desktop Wallpaper Manager
-        link: https://github.com/OssamaTaha/weebo
-        highlights:
-          - "**Problem:** Linux users lacked modern tools for managing dynamic
-            wallpapers across multi-monitor setups"
-          - "**Process:** Developed Electron-based desktop app with wallpaper
-            scheduling and API integrations"
-          - "**Solution:** Full-featured manager with Unsplash/Pexels
-            integration, scheduling, and system tray"
-          - "**Tech Stack:** Electron, JavaScript, Python, Node.js"
-
-      - name: Order Management Bot
-        link: https://github.com/OssamaTaha/Order-Management-Bot
-        highlights:
-          - "**Problem:** Manual order processing on social media was
-            time-consuming and error-prone"
-          - "**Process:** Developed modular Telegram bot with OCR for product
-            code extraction"
-          - "**Solution:** Automated order intake, inventory management, and
-            customer notifications"
-          - "**Tech Stack:** Python, Telegram API, SQLite, Tesseract OCR"
-          - "**Business Impact:** Eliminated manual order entry, reducing
-            processing time by 90%"
-
-      - name: SIC Fraud Detection
+      - name: SIC Fraud Detection — ML Pipeline
         link: https://github.com/OssamaTaha/SIC_FraudDetection
         highlights:
           - "**Problem:** Identifying fraudulent transactions in large datasets
@@ -156,19 +146,23 @@ cv:
 
     skills:
       - label: Programming & Scripting
-        details: Python, SQL, Bash, JavaScript, HTML/CSS
+        details: Python, SQL, Bash, JavaScript, TypeScript, HTML/CSS
       - label: Data Engineering
-        details: ETL, Data Pipelines, Apache Spark, Kafka, Hadoop, PostgreSQL, MySQL,
-          SQLite
+        details: ETL/ELT Pipelines, Apache Airflow, Apache Spark, Apache Kafka,
+          Hadoop, dbt, Data Modeling (Star Schema), PostgreSQL, MySQL, SQLite
       - label: Cloud & Infrastructure
-        details: AWS (EC2, S3, Lambda), Docker, Linux Server Administration
+        details: AWS (EC2, S3, Lambda), Docker, Docker Compose, Linux Server
+          Administration, Nginx, GitHub Actions (CI/CD)
       - label: BI & Visualization
         details: Power BI, DAX, Tableau, Excel, Dash, Streamlit, Plotly
       - label: AI & Machine Learning
-        details: Hugging Face Transformers, Scikit-learn, TensorFlow, NLP, Local LLM
-          Deployment
+        details: LangChain, LangGraph, Hugging Face Transformers, Scikit-learn,
+          TensorFlow, NLP, Local LLM Deployment
+      - label: Data Quality & Monitoring
+        details: Great Expectations, Data Validation, Schema Testing, Anomaly
+          Detection, Pipeline Monitoring
       - label: Automation & Tools
-        details: n8n, OpenClaw, KiloCode, Git, GitHub Actions, Dolt, Jupyter, VS Code
+        details: Git, n8n, OpenClaw, KiloCode, Dolt, Jupyter, VS Code
 
     education:
       - institution: Al-Azhar University
@@ -190,29 +184,25 @@ cv:
         highlights:
           - "Prepared for a career as a data analyst with job-ready skills
             including Excel, SQL, Python, data visualization, and AI tools —
-            [Verify](https://www.coursera.org/account/accomplishments/professio\
-            nal-cert/F89JMCNKNFNQ)"
+            [Verify](https://www.coursera.org/account/accomplishments/professio\\\n            nal-cert/F89JMCNKNFNQ)"
       - name: "Google Data Analytics Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G
         highlights:
           - "Trained in data cleaning, analysis, visualization, and storytelling
             using spreadsheets, SQL, Tableau, and R programming —
-            [Verify](https://www.coursera.org/account/accomplishments/professio\
-            nal-cert/Y35CJWQ37Y2G)"
+            [Verify](https://www.coursera.org/account/accomplishments/professio\\\n            nal-cert/Y35CJWQ37Y2G)"
       - name: "IBM Data Science Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG
         highlights:
           - "Built data science skills including machine learning, data
             analysis, Python, SQL, and applied data science capstone projects —
-            [Verify](https://www.coursera.org/account/accomplishments/professio\
-            nal-cert/5UWB6GVS3ZWG)"
+            [Verify](https://www.coursera.org/account/accomplishments/professio\\\n            nal-cert/5UWB6GVS3ZWG)"
       - name: "IBM Data Engineer Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
         highlights:
           - "Covered ETL pipelines, data warehousing, big data technologies
             (Spark, Hadoop, Kafka), and cloud deployment —
-            [Verify](https://www.coursera.org/account/accomplishments/professio\
-            nal-cert/IY9SQERPCDQ7)"
+            [Verify](https://www.coursera.org/account/accomplishments/professio\\\n            nal-cert/IY9SQERPCDQ7)"
       - name: "IBM AI Engineering Professional Certificate (In Progress)"
         highlights:
           - "Building AI engineering skills including deep learning, neural
@@ -222,8 +212,7 @@ cv:
         highlights:
           - "Developed Python programming skills for data gathering, cleaning,
             analysis, and visualization —
-            [Verify](https://www.coursera.org/account/accomplishments/specializ\
-            ation/FBWPLGLDYABW)"
+            [Verify](https://www.coursera.org/account/accomplishments/specializ\\\n            ation/FBWPLGLDYABW)"
       - name: "Samsung Innovation Campus Big Data Engineering Certificate"
         highlights:
           - "Completed intensive training in big data infrastructure,
