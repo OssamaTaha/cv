@@ -1,50 +1,45 @@
-name: RenderCV
+name: Deploy CV
 
 on:
   push:
     branches:
       - main
+    paths:
+      - 'ossama_taha_cv.yaml'
+      - 'Ossama_Taha_CV.pdf'
+      - 'thumbnail.png'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  render-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          
-      - name: Install RenderCV
-        run: |
-          python -m pip install --upgrade pip
-          pip install "rendercv[full]"
-          
-      - name: Render CV
-        run: |
-          rendercv render ossama_taha_cv.yaml
-          
+
       - name: Generate index.html with OG metadata
         run: |
-          python << 'PYEOF'
+          python3 << 'PYEOF'
           import html, os
-          from ruamel.yaml import YAML
+          try:
+              from ruamel.yaml import YAML
+              yaml = YAML()
+          except ImportError:
+              import yaml
 
-          yaml = YAML()
           with open("ossama_taha_cv.yaml", "r") as f:
-              data = yaml.load(f)
+              if 'YAML' in dir():
+                  data = yaml.load(f)
+              else:
+                  data = yaml.safe_load(f)
 
           cv = data["cv"]
           name = cv["name"]
           headline = cv["headline"]
           summary_text = cv["sections"]["summary"][0].strip()
 
-          # Truncate to ~300 chars for OG description (best practice)
           og_desc = summary_text[:300].rsplit(" ", 1)[0] + "..." if len(summary_text) > 300 else summary_text
           safe_title = html.escape(f"{name} - {headline}")
           safe_desc = html.escape(og_desc)
@@ -75,19 +70,21 @@ jobs:
           </body>
           </html>"""
 
-          with open("rendercv_output/index.html", "w") as f:
+          os.makedirs("deploy", exist_ok=True)
+          with open("deploy/index.html", "w") as f:
               f.write(page)
-          print("Generated index.html with OG metadata from YAML")
+          print("Generated index.html with OG metadata")
           PYEOF
 
-      - name: Prepare Deployment
+      - name: Prepare deployment files
         run: |
-          # Copy the first page PNG to the root of the deployment directory as thumbnail.png
-          cp ./rendercv_output/Ossama_Taha_CV_1.png ./rendercv_output/thumbnail.png
-          
+          mkdir -p deploy
+          cp Ossama_Taha_CV.pdf deploy/
+          cp thumbnail.png deploy/
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./rendercv_output
+          publish_dir: ./deploy
           force_orphan: true
