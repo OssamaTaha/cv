@@ -202,7 +202,7 @@ design:
   theme: classic
 
   page:
-    size: us-letter
+    size: a4
     top_margin: 0.5cm
     bottom_margin: 0.5cm
     left_margin: 0.5cm
@@ -285,7 +285,7 @@ design:
     date_and_location_width: 3.5cm
     side_space: 0.15cm
     space_between_columns: 0.08cm
-    allow_page_break: true
+    allow_page_break: false
     short_second_row: true
     summary:
       space_above: 0cm
