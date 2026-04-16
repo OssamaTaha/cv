@@ -166,33 +166,35 @@ cv:
             through professional certifications
 
     certifications:
-      - name: "AWS Certified Data Engineer – Associate (In Progress)"
+      - name: AWS Certified Data Engineer – Associate (In Progress)
+        link: https://www.coursera.org/account/accomplishments/specialization/FBWPLGLDYABW
         highlights: []
       - name: "IBM AI Engineering Professional Certificate (In Progress)"
         highlights: []
       - name: "IBM Data Engineer Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
         highlights:
-          - "Covered ETL pipelines, data warehousing, big data technologies
+          - Covered ETL pipelines, data warehousing, big data technologies
             (Spark, Hadoop, Kafka), and cloud deployment —
-            [Verify](https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7)"
+            [Verify](https://www.coursera.org/account/accomplishments/specialization/certificate/IY9SQERPCDQ7)
       - name: "Google Data Analytics Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G
         highlights:
-          - "Trained in data cleaning, analysis, visualization, and storytelling
+          - Trained in data cleaning, analysis, visualization, and storytelling
             using spreadsheets, SQL, Tableau, and R programming —
-            [Verify](https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G)"
+            [Verify](https://www.coursera.org/account/accomplishments/specialization/certificate/Y35CJWQ37Y2G)
       - name: "IBM Data Science Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG
         highlights:
-          - "Built data science skills including machine learning, data analysis,
+          - Built data science skills including machine learning, data analysis,
             Python, SQL, and applied data science capstone projects —
-            [Verify](https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG)"
-      - name: "Samsung Innovation Campus — Big Data Engineering Certificate"
+            [Verify](https://www.coursera.org/account/accomplishments/specialization/certificate/5UWB6GVS3ZWG)
+      - name: Samsung Innovation Campus Big Data Engineering Certificate
         highlights:
-          - "**Top Achiever (#1)** in the Big Data Engineering track"
-          - "Completed intensive training in big data infrastructure,
-            distributed computing, and data engineering fundamentals"
+          - '"**Top Achiever (#1)** in the Big Data Engineering track"'
+          - '"Completed intensive training in big data
+            infrastructure,distributed computing, and data engineering
+            fundamentals"'
 
     languages:
       - label: Languages
@@ -202,7 +204,7 @@ design:
   theme: classic
 
   page:
-    size: a4
+    size: us-letter
     top_margin: 0.5cm
     bottom_margin: 0.5cm
     left_margin: 0.5cm
@@ -285,7 +287,7 @@ design:
     date_and_location_width: 3.5cm
     side_space: 0.15cm
     space_between_columns: 0.08cm
-    allow_page_break: false
+    allow_page_break: true
     short_second_row: true
     summary:
       space_above: 0cm
