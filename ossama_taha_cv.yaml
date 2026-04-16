@@ -14,10 +14,10 @@ cv:
     summary:
       - >
         Data Engineer with 2+ years building production ETL pipelines,
-        orchestrated data workflows, and real-time streaming systems.
-        Proficient in Python, SQL, Apache Airflow, Kafka, dbt, and AWS.
-        Proven track record of reducing reporting time by 10x through
-        automation and building scalable data platforms from scratch.
+        orchestrated data workflows, and real-time streaming systems. Proficient
+        in Python, SQL, Apache Airflow, Kafka, dbt, and AWS. Proven track record
+        of reducing reporting time by 10x through automation and building
+        scalable data platforms from scratch.
 
     experience:
       - company: Nile for Cables and Electronics
@@ -73,8 +73,8 @@ cv:
             consumer groups, windowed aggregation, and dead letter queues"
           - "**Solution:** Real-time pipeline processing 1000+ events/sec with
             live dashboard, alerting, and PostgreSQL sink"
-          - "**Tech Stack:** Apache Kafka, Docker, Python, PostgreSQL, Streamlit,
-            Pydantic, GitHub Actions"
+          - "**Tech Stack:** Apache Kafka, Docker, Python, PostgreSQL,
+            Streamlit, Pydantic, GitHub Actions"
           - "**Business Impact:** Sub-second data latency, automated alerting on
             threshold breaches, real-time operational visibility"
 
@@ -85,8 +85,8 @@ cv:
             reliability, and cost efficiency for growing data volumes"
           - "**Process:** Designed S3 data lake architecture with Glue ETL,
             Athena serverless queries, and Step Functions orchestration"
-          - "**Solution:** Fully serverless pipeline with Terraform IaC —
-            deploy entire infrastructure with single command"
+          - "**Solution:** Fully serverless pipeline with Terraform IaC — deploy
+            entire infrastructure with single command"
           - "**Tech Stack:** AWS (S3, Glue, Athena, Lambda, Step Functions,
             CloudWatch), Terraform, Python, PySpark, Docker"
           - "**Business Impact:** 90% cost reduction vs traditional infra,
@@ -99,8 +99,9 @@ cv:
             efficient analytics and BI tool consumption"
           - "**Process:** Designed star schema with fact and dimension tables,
             built 15+ dbt models across staging/intermediate/marts layers"
-          - "**Solution:** Production-grade data warehouse with automated testing,
-            documentation, SCD Type 2 tracking, and incremental processing"
+          - "**Solution:** Production-grade data warehouse with automated
+            testing, documentation, SCD Type 2 tracking, and incremental
+            processing"
           - "**Tech Stack:** dbt-core, PostgreSQL, Docker, Jinja, Python, Faker,
             Streamlit, GitHub Actions"
           - "**Business Impact:** Reduced query complexity by 70%, enabled
@@ -109,14 +110,14 @@ cv:
       - name: Agentic AI Workflow — Multi-Agent DataOps Automation
         link: https://github.com/OssamaTaha/agentic-ai-workflow
         highlights:
-          - "**Problem:** Data engineering operations required manual monitoring,
-            debugging, and intervention across multiple systems"
+          - "**Problem:** Data engineering operations required manual
+            monitoring, debugging, and intervention across multiple systems"
           - "**Process:** Built multi-agent system with orchestrator pattern, 5
             specialized agents, tool integration, and persistent memory"
           - "**Solution:** Natural language interface for DataOps — agents
             autonomously monitor pipelines, run quality checks, debug failures"
-          - "**Tech Stack:** LangChain, LangGraph, Python, PostgreSQL, Streamlit,
-            Docker, OpenAI/Ollama, GitHub Actions"
+          - "**Tech Stack:** LangChain, LangGraph, Python, PostgreSQL,
+            Streamlit, Docker, OpenAI/Ollama, GitHub Actions"
           - "**Business Impact:** Reduced mean-time-to-resolution for pipeline
             failures by 70%, automated 90% of routine monitoring tasks"
 
@@ -137,20 +138,20 @@ cv:
       - label: Programming & Scripting
         details: Python, SQL, Bash, JavaScript, TypeScript, HTML/CSS
       - label: Data Engineering
-        details: ETL/ELT Pipelines, Apache Airflow, Apache Spark, Apache Kafka,
-          Hadoop, dbt, Data Modeling (Star Schema), PostgreSQL, MySQL, SQLite
+        details: ETL/ELT Pipelines, Apache Airflow, Apache Spark, Apache Kafka, Hadoop,
+          dbt, Data Modeling (Star Schema), PostgreSQL, MySQL, SQLite
       - label: Cloud & Infrastructure
-        details: AWS (S3, Glue, Athena, Lambda, Step Functions, EC2), Terraform,
-          Docker, Docker Compose, Linux Server Administration, Nginx,
-          GitHub Actions (CI/CD)
+        details: AWS (S3, Glue, Athena, Lambda, Step Functions, EC2), Terraform, Docker,
+          Docker Compose, Linux Server Administration, Nginx, GitHub Actions
+          (CI/CD)
       - label: BI & Visualization
         details: Power BI, DAX, Tableau, Excel, Dash, Streamlit, Plotly
       - label: AI & Machine Learning
         details: LangChain, LangGraph, Hugging Face Transformers, Scikit-learn,
           TensorFlow, NLP, Local LLM Deployment
       - label: Data Quality & Monitoring
-        details: Great Expectations, Data Validation, Schema Testing, Anomaly
-          Detection, Pipeline Monitoring
+        details: Great Expectations, Data Validation, Schema Testing, Anomaly Detection,
+          Pipeline Monitoring
       - label: Automation & Tools
         details: Git, n8n, OpenClaw, KiloCode, Dolt, Jupyter, VS Code
 
@@ -171,25 +172,25 @@ cv:
         highlights:
           - "Prepared for a career as a data analyst with job-ready skills
             including Excel, SQL, Python, data visualization, and AI tools —
-            [Verify](https://www.coursera.org/account/accomplishments/professio\\\n            nal-cert/F89JMCNKNFNQ)"
+            [Verify](https://www.coursera.org/account/accomplishments/professional-cert/F89JMCNKNFNQ)"
       - name: "Google Data Analytics Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G
         highlights:
           - "Trained in data cleaning, analysis, visualization, and storytelling
             using spreadsheets, SQL, Tableau, and R programming —
-            [Verify](https://www.coursera.org/account/accomplishments/professio\\\n            nal-cert/Y35CJWQ37Y2G)"
+            [Verify](https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G)"
       - name: "IBM Data Science Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG
         highlights:
           - "Built data science skills including machine learning, data
             analysis, Python, SQL, and applied data science capstone projects —
-            [Verify](https://www.coursera.org/account/accomplishments/professio\\\n            nal-cert/5UWB6GVS3ZWG)"
+            [Verify](https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG)"
       - name: "IBM Data Engineer Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
         highlights:
           - "Covered ETL pipelines, data warehousing, big data technologies
             (Spark, Hadoop, Kafka), and cloud deployment —
-            [Verify](https://www.coursera.org/account/accomplishments/professio\\\n            nal-cert/IY9SQERPCDQ7)"
+            [Verify](https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7)"
       - name: "IBM AI Engineering Professional Certificate (In Progress)"
         highlights:
           - "Building AI engineering skills including deep learning, neural
@@ -208,7 +209,7 @@ design:
   theme: classic
 
   page:
-    size: us-letter
+    size: a4
     top_margin: 0.5cm
     bottom_margin: 0.5cm
     left_margin: 0.5cm
@@ -227,7 +228,7 @@ design:
     top_note: rgb(120, 120, 120)
 
   typography:
-    line_spacing: 0.46em
+    line_spacing: 0.58em
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
@@ -250,7 +251,7 @@ design:
     bold:
       name: true
       headline: true
-      connections: false
+      connections: true
       section_titles: true
 
   links:
@@ -267,32 +268,31 @@ design:
     space_below_headline: 0.15cm
     space_below_connections: 0.25cm
     connections:
-      phone_number_format: E164
+      phone_number_format: international
       hyperlink: true
       show_icons: true
       display_urls_instead_of_usernames: true
       separator: "|"
-      space_between_connections: 0.4cm
+      space_between_connections: 0.52cm
 
   section_titles:
-    type: with_full_line
-    line_thickness: 0.63pt
-    space_above: 0.2cm
-    space_below: 0.1cm
+    type: with_partial_line
+    line_thickness: 2.81pt
+    space_above: 0.43cm
+    space_below: 0.24cm
 
   sections:
     allow_page_break: true
     space_between_regular_entries: 0.5em
     space_between_text_based_entries: 0.15em
-    show_time_spans_in:
-      - experience
+    show_time_spans_in: []
 
   entries:
     date_and_location_width: 3.5cm
     side_space: 0.15cm
     space_between_columns: 0.08cm
-    allow_page_break: true
-    short_second_row: true
+    allow_page_break: false
+    short_second_row: false
     summary:
       space_above: 0cm
       space_left: 0cm
@@ -303,6 +303,7 @@ design:
       space_above: 0cm
       space_between_items: 0cm
       space_between_bullet_and_text: 0.5em
+    degree_width: 0.07cm
 
   templates:
     top_note: '*LAST_UPDATED CURRENT_DATE*'
