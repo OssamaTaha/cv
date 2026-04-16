@@ -153,7 +153,7 @@ cv:
         details: Great Expectations, Data Validation, Schema Testing, Anomaly Detection,
           Pipeline Monitoring
       - label: Automation & Tools
-        details: Git, n8n, OpenClaw, KiloCode, Dolt, Jupyter, VS Code
+        details: Git, n8n, OpenClaw, KiloCode, Hermes, Dolt, Jupyter, VS Code
 
     education:
       - institution: Al-Azhar University
@@ -162,17 +162,20 @@ cv:
         start_date: 2019-09
         end_date: 2023-06
         highlights:
-          - "Self-taught in programming, data engineering, and cloud
-            technologies through professional certifications and hands-on
-            project work"
+          - Self-taught in programming, data engineering, and cloud technologies
+            through professional certifications
 
     certifications:
-      - name: "IBM Data Analyst Professional Certificate"
-        link: https://www.coursera.org/account/accomplishments/professional-cert/F89JMCNKNFNQ
+      - name: "AWS Certified Data Engineer – Associate (In Progress)"
+        highlights: []
+      - name: "IBM AI Engineering Professional Certificate (In Progress)"
+        highlights: []
+      - name: "IBM Data Engineer Professional Certificate"
+        link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
         highlights:
-          - "Prepared for a career as a data analyst with job-ready skills
-            including Excel, SQL, Python, data visualization, and AI tools —
-            [Verify](https://www.coursera.org/account/accomplishments/professional-cert/F89JMCNKNFNQ)"
+          - "Covered ETL pipelines, data warehousing, big data technologies
+            (Spark, Hadoop, Kafka), and cloud deployment —
+            [Verify](https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7)"
       - name: "Google Data Analytics Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G
         highlights:
@@ -182,24 +185,14 @@ cv:
       - name: "IBM Data Science Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG
         highlights:
-          - "Built data science skills including machine learning, data
-            analysis, Python, SQL, and applied data science capstone projects —
+          - "Built data science skills including machine learning, data analysis,
+            Python, SQL, and applied data science capstone projects —
             [Verify](https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG)"
-      - name: "IBM Data Engineer Professional Certificate"
-        link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
-        highlights:
-          - "Covered ETL pipelines, data warehousing, big data technologies
-            (Spark, Hadoop, Kafka), and cloud deployment —
-            [Verify](https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7)"
-      - name: "IBM AI Engineering Professional Certificate (In Progress)"
-        highlights:
-          - "Building AI engineering skills including deep learning, neural
-            networks, and practical AI application development"
       - name: "Samsung Innovation Campus — Big Data Engineering Certificate"
         highlights:
+          - "**Top Achiever (#1)** in the Big Data Engineering track"
           - "Completed intensive training in big data infrastructure,
             distributed computing, and data engineering fundamentals"
-          - "**Top Achiever (#1)** in the Big Data Engineering track"
 
     languages:
       - label: Languages
@@ -209,7 +202,7 @@ design:
   theme: classic
 
   page:
-    size: a4
+    size: us-letter
     top_margin: 0.5cm
     bottom_margin: 0.5cm
     left_margin: 0.5cm
@@ -228,7 +221,7 @@ design:
     top_note: rgb(120, 120, 120)
 
   typography:
-    line_spacing: 0.58em
+    line_spacing: 0.46em
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
@@ -251,7 +244,7 @@ design:
     bold:
       name: true
       headline: true
-      connections: true
+      connections: false
       section_titles: true
 
   links:
@@ -268,31 +261,32 @@ design:
     space_below_headline: 0.15cm
     space_below_connections: 0.25cm
     connections:
-      phone_number_format: international
+      phone_number_format: E164
       hyperlink: true
       show_icons: true
       display_urls_instead_of_usernames: true
       separator: "|"
-      space_between_connections: 0.52cm
+      space_between_connections: 0.4cm
 
   section_titles:
-    type: with_partial_line
-    line_thickness: 2.81pt
-    space_above: 0.43cm
-    space_below: 0.24cm
+    type: with_full_line
+    line_thickness: 0.63pt
+    space_above: 0.2cm
+    space_below: 0.1cm
 
   sections:
     allow_page_break: true
     space_between_regular_entries: 0.5em
     space_between_text_based_entries: 0.15em
-    show_time_spans_in: []
+    show_time_spans_in:
+      - experience
 
   entries:
     date_and_location_width: 3.5cm
     side_space: 0.15cm
     space_between_columns: 0.08cm
-    allow_page_break: false
-    short_second_row: false
+    allow_page_break: true
+    short_second_row: true
     summary:
       space_above: 0cm
       space_left: 0cm
@@ -303,7 +297,6 @@ design:
       space_above: 0cm
       space_between_items: 0cm
       space_between_bullet_and_text: 0.5em
-    degree_width: 0.07cm
 
   templates:
     top_note: '*LAST_UPDATED CURRENT_DATE*'
