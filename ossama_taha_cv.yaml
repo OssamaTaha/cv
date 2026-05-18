@@ -61,90 +61,44 @@ cv:
       - name: dbt Data Warehouse — Star Schema & Analytics Layer
         link: https://github.com/OssamaTaha/dbt-data-warehouse
         highlights:
-          - "**Problem:** Raw operational data lacked dimensional structure for
-            efficient analytics and BI tool consumption, forcing manual data
-            wrangling for every report"
-          - "**Process:** Designed star schema with fact and dimension tables,
-            built 15+ dbt models across staging, intermediate, and marts layers
-            with automated testing and documentation"
-          - "**Solution:** Production-grade data warehouse with SCD Type 2
-            tracking, incremental processing, and 99.9% data quality via dbt
-            tests — enabled self-service analytics for business users"
-          - "**Business Impact:** Reduced query complexity by 70%, eliminated
-            manual data preparation, enabled analysts to answer business questions
-            directly"
+          - "**Problem:** Raw operational data lacked structure for analytics, forcing manual data wrangling for every report"
+          - "**Process & Solution:** Designed star schema with 15+ dbt models across staging/marts layers, SCD Type 2 tracking, incremental processing, and 99.9% data quality via automated testing"
+          - "**Business Impact:** Reduced query complexity by 70%, eliminated manual data prep, enabled self-service analytics"
 
       - name: Atlas Analytics Platform
         link: https://github.com/OssamaTaha/atlas-analytics-platform
         highlights:
-          - "**Problem:** Enterprise needed a unified analytics platform for
-            multi-department data visibility, but existing solutions were siloed
-            and required manual updates"
-          - "**Process:** Built full-stack platform with Python backend,
-            automated ETL pipelines, and role-based interactive dashboards;
-            deployed on AWS with CI/CD"
-          - "**Solution:** Production system with automated data sync, real-time
-            reporting, and controlled access across departments"
-          - "**Business Impact:** Enabled data-driven decisions across 3
-            departments, reduced manual reporting effort by 80%, improved data
-            accuracy and timeliness"
+          - "**Problem:** Siloed data across departments required manual updates with no unified visibility"
+          - "**Process & Solution:** Built full-stack platform with Python backend, automated ETL pipelines, role-based dashboards, deployed on AWS with CI/CD"
+          - "**Business Impact:** Enabled data-driven decisions across 3 departments, reduced manual reporting by 80%"
 
       - name: Airflow ETL Pipeline — Multi-Source Data Orchestration
         link: https://github.com/OssamaTaha/airflow-etl-pipeline
         highlights:
-          - "**Problem:** Manual data extraction from multiple APIs was
-            error-prone and lacked scheduling, monitoring, or failure recovery"
-          - "**Process:** Designed 4 production DAGs with task dependencies,
-            dynamic task mapping, XCom data passing, and automated retry logic
-            using Apache Airflow and Docker"
-          - "**Solution:** End-to-end orchestrated pipeline extracting from 3
-            API sources, transforming in staging, and loading into PostgreSQL
-            with real-time monitoring dashboard"
-          - "**Business Impact:** Fully automated daily and weekly data
-            ingestion with zero manual intervention, complete visibility into
-            pipeline health"
+          - "**Problem:** Manual API data extraction was error-prone with no scheduling or failure recovery"
+          - "**Process & Solution:** Designed 4 production DAGs with task dependencies, dynamic mapping, retry logic, extracting from 3 API sources into PostgreSQL with real-time monitoring"
+          - "**Business Impact:** Fully automated daily/weekly ingestion with zero manual intervention"
 
       - name: Agentic AI Workflow — Multi-Agent DataOps Automation
         link: https://github.com/OssamaTaha/agentic-ai-workflow
         highlights:
-          - "**Problem:** Data operations required constant manual monitoring,
-            debugging, and intervention across multiple systems"
-          - "**Process:** Built multi-agent system with orchestrator pattern, 5
-            specialized agents, tool integration, and persistent memory using
-            LangChain and LangGraph"
-          - "**Solution:** Natural language interface for DataOps — agents
-            autonomously monitor pipelines, run quality checks, and debug
-            failures without human intervention"
-          - "**Business Impact:** Reduced mean-time-to-resolution for pipeline
-            failures by 70%, automated 90% of routine monitoring and maintenance
-            tasks"
+          - "**Problem:** Data operations required constant manual monitoring and debugging across multiple systems"
+          - "**Process & Solution:** Built multi-agent system with orchestrator pattern, 5 specialized agents, tool integration, and persistent memory using LangChain/LangGraph"
+          - "**Business Impact:** Cut pipeline failure resolution time by 70%, automated 90% of routine monitoring"
 
       - name: AWS Cloud Data Pipeline — Serverless ETL with IaC
         link: https://github.com/OssamaTaha/aws-cloud-data-pipeline
         highlights:
-          - "**Problem:** On-premise data infrastructure lacked scalability,
-            reliability, and cost efficiency for growing data volumes"
-          - "**Process:** Designed S3 data lake architecture with Glue ETL,
-            Athena serverless queries, and Step Functions orchestration using
-            Terraform for infrastructure-as-code"
-          - "**Solution:** Fully serverless pipeline deployable with a single
-            command — auto-scaling, zero server management"
-          - "**Business Impact:** 90% cost reduction vs traditional
-            infrastructure, sub-second query performance on analytical data, full
-            infrastructure version control"
+          - "**Problem:** On-premise infrastructure lacked scalability and cost efficiency for growing data"
+          - "**Process & Solution:** S3 data lake + Glue ETL + Athena queries + Step Functions orchestration, fully deployable via Terraform IaC"
+          - "**Business Impact:** 90% cost reduction vs traditional infra, sub-second query performance, zero server management"
 
       - name: Kafka Streaming Pipeline — Real-Time Data Processing
         link: https://github.com/OssamaTaha/kafka-streaming-pipeline
         highlights:
-          - "**Problem:** Batch processing couldn't meet real-time analytics
-            requirements for stock monitoring and operational telemetry"
-          - "**Process:** Built event-driven architecture with Kafka producers,
-            consumer groups, windowed aggregation, and dead letter queues for
-            fault tolerance"
-          - "**Solution:** Real-time pipeline processing 1000+ events per second
-            with live dashboard, automated alerting, and PostgreSQL persistence"
-          - "**Business Impact:** Sub-second data latency, automated threshold
-            alerting, real-time operational visibility across monitored systems"
+          - "**Problem:** Batch processing couldn't meet real-time analytics needs for stock monitoring and telemetry"
+          - "**Process & Solution:** Event-driven architecture with Kafka producers, consumer groups, windowed aggregation, dead letter queues, live dashboard, and PostgreSQL sink"
+          - "**Business Impact:** Sub-second data latency, automated threshold alerting, real-time operational visibility"
 
     skills:
       - label: BI & Data Visualization
@@ -202,19 +156,15 @@ cv:
         highlights:
           - "Coursera iMBA from UIUC — business process modeling, requirements engineering, data-driven decisions"
 
-    languages:
-      - label: Languages
-        details: "Arabic: Native | English: Professional | Russian: Basic"
-
 design:
   theme: classic
 
   page:
     size: us-letter
-    top_margin: 0.4cm
-    bottom_margin: 0.4cm
-    left_margin: 0.5cm
-    right_margin: 0.5cm
+    top_margin: 0.3cm
+    bottom_margin: 0.3cm
+    left_margin: 0.4cm
+    right_margin: 0.4cm
     show_footer: false
     show_top_note: false
 
@@ -229,7 +179,7 @@ design:
     top_note: rgb(120, 120, 120)
 
   typography:
-    line_spacing: 0.42em
+    line_spacing: 0.37em
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
@@ -239,11 +189,11 @@ design:
       connections: Roboto
       section_titles: Roboto
     font_size:
-      body: 10.51pt
+      body: 9pt
       name: 28pt
       headline: 19.8pt
       connections: 10pt
-      section_titles: 16.49pt
+      section_titles: 14pt
     small_caps:
       name: true
       headline: true
@@ -279,12 +229,12 @@ design:
   section_titles:
     type: with_full_line
     line_thickness: 0.63pt
-    space_above: 0.2cm
-    space_below: 0.1cm
+    space_above: 0.1cm
+    space_below: 0.06cm
 
   sections:
     allow_page_break: false
-    space_between_regular_entries: 0.3em
+    space_between_regular_entries: 0.2em
     space_between_text_based_entries: 0.15em
     show_time_spans_in:
       - experience
@@ -293,7 +243,7 @@ design:
     date_and_location_width: 3.5cm
     side_space: 0.15cm
     space_between_columns: 0.08cm
-    allow_page_break: false
+    allow_page_break: true
     short_second_row: true
     summary:
       space_above: 0cm
