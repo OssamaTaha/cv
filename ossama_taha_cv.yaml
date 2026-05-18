@@ -283,7 +283,7 @@ design:
     space_below: 0.1cm
 
   sections:
-    allow_page_break: true
+    allow_page_break: false
     space_between_regular_entries: 0.3em
     space_between_text_based_entries: 0.15em
     show_time_spans_in:
@@ -293,7 +293,7 @@ design:
     date_and_location_width: 3.5cm
     side_space: 0.15cm
     space_between_columns: 0.08cm
-    allow_page_break: true
+    allow_page_break: false
     short_second_row: true
     summary:
       space_above: 0cm
