@@ -161,10 +161,10 @@ design:
 
   page:
     size: us-letter
-    top_margin: 0.3cm
-    bottom_margin: 0.3cm
-    left_margin: 0.4cm
-    right_margin: 0.4cm
+    top_margin: 0.4cm
+    bottom_margin: 0.4cm
+    left_margin: 0.5cm
+    right_margin: 0.5cm
     show_footer: false
     show_top_note: false
 
@@ -179,7 +179,7 @@ design:
     top_note: rgb(120, 120, 120)
 
   typography:
-    line_spacing: 0.37em
+    line_spacing: 0.42em
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
@@ -189,11 +189,11 @@ design:
       connections: Roboto
       section_titles: Roboto
     font_size:
-      body: 9pt
+      body: 9.5pt
       name: 28pt
       headline: 19.8pt
       connections: 10pt
-      section_titles: 14pt
+      section_titles: 15pt
     small_caps:
       name: true
       headline: true
@@ -234,7 +234,7 @@ design:
 
   sections:
     allow_page_break: false
-    space_between_regular_entries: 0.2em
+    space_between_regular_entries: 0.3em
     space_between_text_based_entries: 0.15em
     show_time_spans_in:
       - experience
