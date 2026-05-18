@@ -119,33 +119,6 @@ cv:
             failures by 70%, automated 90% of routine monitoring and maintenance
             tasks"
 
-      - name: AWS Cloud Data Pipeline — Serverless ETL with IaC
-        link: https://github.com/OssamaTaha/aws-cloud-data-pipeline
-        highlights:
-          - "**Problem:** On-premise data infrastructure lacked scalability,
-            reliability, and cost efficiency for growing data volumes"
-          - "**Process:** Designed S3 data lake architecture with Glue ETL,
-            Athena serverless queries, and Step Functions orchestration using
-            Terraform for infrastructure-as-code"
-          - "**Solution:** Fully serverless pipeline deployable with a single
-            command — auto-scaling, zero server management"
-          - "**Business Impact:** 90% cost reduction vs traditional
-            infrastructure, sub-second query performance on analytical data, full
-            infrastructure version control"
-
-      - name: Kafka Streaming Pipeline — Real-Time Data Processing
-        link: https://github.com/OssamaTaha/kafka-streaming-pipeline
-        highlights:
-          - "**Problem:** Batch processing couldn't meet real-time analytics
-            requirements for stock monitoring and operational telemetry"
-          - "**Process:** Built event-driven architecture with Kafka producers,
-            consumer groups, windowed aggregation, and dead letter queues for
-            fault tolerance"
-          - "**Solution:** Real-time pipeline processing 1000+ events per second
-            with live dashboard, automated alerting, and PostgreSQL persistence"
-          - "**Business Impact:** Sub-second data latency, automated threshold
-            alerting, real-time operational visibility across monitored systems"
-
     skills:
       - label: BI & Data Visualization
         details: Power BI, DAX, Tableau, Excel, Streamlit, Plotly, Dash
