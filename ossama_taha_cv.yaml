@@ -1,6 +1,6 @@
 cv:
   name: Ossama Taha
-  headline: Data Engineer
+  headline: BI & Data Analytics Engineer
   location: 6th of October City, Egypt
   email: ossama.y.taha@gmail.com
   phone: "+20 1026458878"
@@ -13,11 +13,13 @@ cv:
   sections:
     summary:
       - >
-        Data Engineer with 2+ years building production ETL pipelines,
-        orchestrated data workflows, and real-time streaming systems. Proficient
-        in Python, SQL, Apache Airflow, Kafka, dbt, and AWS. Proven track record
-        of reducing reporting time by 10x through automation and building
-        scalable data platforms from scratch.
+        BI & Data Analytics professional with a B.Com in Accounting and 2+ years
+        of experience building production-grade data pipelines, automated reporting
+        systems, and executive dashboards. Proven track record of reducing reporting
+        cycles by 10x through end-to-end automation, enabling data-driven strategic
+        decisions for sales and operations teams. Combines deep business domain
+        knowledge with strong technical skills in Python, SQL, PostgreSQL, Apache
+        Airflow, dbt, and cloud infrastructure.
 
     experience:
       - company: Nile for Cables and Electronics
@@ -26,57 +28,96 @@ cv:
         start_date: 2024-11
         end_date: present
         highlights:
-          - "Engineered a semi-realtime automated reporting system replacing
-            Power BI, improving reporting speed by 10x"
+          - "Reduced reporting cycle from days to hours by designing and deploying a
+            semi-realtime automated reporting system, directly improving sales team
+            responsiveness and strategic decision-making"
+          - "Led quarterly sales performance evaluations using consolidated KPIs,
+            providing actionable insights that drove revenue-focused business
+            decisions"
+          - "Built executive dashboards supporting sales forecasting and real-time
+            KPI monitoring, enabling stakeholders to track performance without
+            manual data pulls"
           - "Designed end-to-end ETL pipelines using PostgreSQL and Dolt
-            (version-controlled SQL database)"
-          - "Built executive dashboards supporting sales forecasting and
-            strategic business decisions"
-          - "Led quarterly sales performance evaluations using consolidated KPIs"
-          - "Developed a local AI chatbot using open-source Hugging Face models
-            for natural language data querying"
+            (version-controlled SQL database), ensuring data integrity and audit
+            trail for critical financial metrics"
+          - "Developed a local AI chatbot using open-source LLMs for natural
+            language querying of business data, empowering non-technical
+            stakeholders to self-serve analytics"
 
       - company: Samsung Innovation Campus
-        position: Big Data Engineer
+        position: Data Engineer
         location: Giza, Egypt
         start_date: 2024-07
         end_date: 2024-10
         highlights:
-          - "Built scalable ETL pipelines using Apache Spark, Kafka, and Hadoop
-            ecosystem"
-          - "Performed exploratory data analysis and feature engineering for
-            analytical use cases"
-          - "Deployed data workflows on AWS EC2 and S3 for production
-            environments"
+          - "Developed scalable data processing workflows using Apache Spark and
+            Kafka, supporting business intelligence and analytical use cases"
+          - "Performed exploratory data analysis and feature engineering to enable
+            data-driven business insights"
+          - "Deployed production data workflows on AWS cloud infrastructure (EC2,
+            S3), ensuring reliable and cost-efficient operations"
 
     projects:
+      - name: dbt Data Warehouse — Star Schema & Analytics Layer
+        link: https://github.com/OssamaTaha/dbt-data-warehouse
+        highlights:
+          - "**Problem:** Raw operational data lacked dimensional structure for
+            efficient analytics and BI tool consumption, forcing manual data
+            wrangling for every report"
+          - "**Process:** Designed star schema with fact and dimension tables,
+            built 15+ dbt models across staging, intermediate, and marts layers
+            with automated testing and documentation"
+          - "**Solution:** Production-grade data warehouse with SCD Type 2
+            tracking, incremental processing, and 99.9% data quality via dbt
+            tests — enabled self-service analytics for business users"
+          - "**Business Impact:** Reduced query complexity by 70%, eliminated
+            manual data preparation, enabled analysts to answer business questions
+            directly"
+
+      - name: Atlas Analytics Platform
+        link: https://github.com/OssamaTaha/atlas-analytics-platform
+        highlights:
+          - "**Problem:** Enterprise needed a unified analytics platform for
+            multi-department data visibility, but existing solutions were siloed
+            and required manual updates"
+          - "**Process:** Built full-stack platform with Python backend,
+            automated ETL pipelines, and role-based interactive dashboards;
+            deployed on AWS with CI/CD"
+          - "**Solution:** Production system with automated data sync, real-time
+            reporting, and controlled access across departments"
+          - "**Business Impact:** Enabled data-driven decisions across 3
+            departments, reduced manual reporting effort by 80%, improved data
+            accuracy and timeliness"
+
       - name: Airflow ETL Pipeline — Multi-Source Data Orchestration
         link: https://github.com/OssamaTaha/airflow-etl-pipeline
         highlights:
           - "**Problem:** Manual data extraction from multiple APIs was
             error-prone and lacked scheduling, monitoring, or failure recovery"
           - "**Process:** Designed 4 production DAGs with task dependencies,
-            dynamic task mapping, XCom data passing, and automated retry logic"
+            dynamic task mapping, XCom data passing, and automated retry logic
+            using Apache Airflow and Docker"
           - "**Solution:** End-to-end orchestrated pipeline extracting from 3
-            API sources, transforming in staging, and loading into PostgreSQL"
-          - "**Tech Stack:** Apache Airflow, Docker, PostgreSQL, Python,
-            Streamlit, GitHub Actions"
-          - "**Business Impact:** Fully automated daily/weekly data ingestion
-            with monitoring dashboard, zero manual intervention required"
+            API sources, transforming in staging, and loading into PostgreSQL
+            with real-time monitoring dashboard"
+          - "**Business Impact:** Fully automated daily and weekly data
+            ingestion with zero manual intervention, complete visibility into
+            pipeline health"
 
-      - name: Kafka Streaming Pipeline — Real-Time Data Processing
-        link: https://github.com/OssamaTaha/kafka-streaming-pipeline
+      - name: Agentic AI Workflow — Multi-Agent DataOps Automation
+        link: https://github.com/OssamaTaha/agentic-ai-workflow
         highlights:
-          - "**Problem:** Batch processing couldn't meet real-time analytics
-            requirements for stock monitoring and IoT telemetry"
-          - "**Process:** Built event-driven architecture with Kafka producers,
-            consumer groups, windowed aggregation, and dead letter queues"
-          - "**Solution:** Real-time pipeline processing 1000+ events/sec with
-            live dashboard, alerting, and PostgreSQL sink"
-          - "**Tech Stack:** Apache Kafka, Docker, Python, PostgreSQL,
-            Streamlit, Pydantic, GitHub Actions"
-          - "**Business Impact:** Sub-second data latency, automated alerting on
-            threshold breaches, real-time operational visibility"
+          - "**Problem:** Data operations required constant manual monitoring,
+            debugging, and intervention across multiple systems"
+          - "**Process:** Built multi-agent system with orchestrator pattern, 5
+            specialized agents, tool integration, and persistent memory using
+            LangChain and LangGraph"
+          - "**Solution:** Natural language interface for DataOps — agents
+            autonomously monitor pipelines, run quality checks, and debug
+            failures without human intervention"
+          - "**Business Impact:** Reduced mean-time-to-resolution for pipeline
+            failures by 70%, automated 90% of routine monitoring and maintenance
+            tasks"
 
       - name: AWS Cloud Data Pipeline — Serverless ETL with IaC
         link: https://github.com/OssamaTaha/aws-cloud-data-pipeline
@@ -84,68 +125,39 @@ cv:
           - "**Problem:** On-premise data infrastructure lacked scalability,
             reliability, and cost efficiency for growing data volumes"
           - "**Process:** Designed S3 data lake architecture with Glue ETL,
-            Athena serverless queries, and Step Functions orchestration"
-          - "**Solution:** Fully serverless pipeline with Terraform IaC — deploy
-            entire infrastructure with single command"
-          - "**Tech Stack:** AWS (S3, Glue, Athena, Lambda, Step Functions,
-            CloudWatch), Terraform, Python, PySpark, Docker"
-          - "**Business Impact:** 90% cost reduction vs traditional infra,
-            auto-scaling, zero server management, sub-second query performance"
+            Athena serverless queries, and Step Functions orchestration using
+            Terraform for infrastructure-as-code"
+          - "**Solution:** Fully serverless pipeline deployable with a single
+            command — auto-scaling, zero server management"
+          - "**Business Impact:** 90% cost reduction vs traditional
+            infrastructure, sub-second query performance on analytical data, full
+            infrastructure version control"
 
-      - name: dbt Data Warehouse — Star Schema Design & Transformation
-        link: https://github.com/OssamaTaha/dbt-data-warehouse
+      - name: Kafka Streaming Pipeline — Real-Time Data Processing
+        link: https://github.com/OssamaTaha/kafka-streaming-pipeline
         highlights:
-          - "**Problem:** Raw operational data lacked dimensional structure for
-            efficient analytics and BI tool consumption"
-          - "**Process:** Designed star schema with fact and dimension tables,
-            built 15+ dbt models across staging/intermediate/marts layers"
-          - "**Solution:** Production-grade data warehouse with automated
-            testing, documentation, SCD Type 2 tracking, and incremental
-            processing"
-          - "**Tech Stack:** dbt-core, PostgreSQL, Docker, Jinja, Python, Faker,
-            Streamlit, GitHub Actions"
-          - "**Business Impact:** Reduced query complexity by 70%, enabled
-            self-service analytics, 99.9% data quality via dbt tests"
-
-      - name: Agentic AI Workflow — Multi-Agent DataOps Automation
-        link: https://github.com/OssamaTaha/agentic-ai-workflow
-        highlights:
-          - "**Problem:** Data engineering operations required manual
-            monitoring, debugging, and intervention across multiple systems"
-          - "**Process:** Built multi-agent system with orchestrator pattern, 5
-            specialized agents, tool integration, and persistent memory"
-          - "**Solution:** Natural language interface for DataOps — agents
-            autonomously monitor pipelines, run quality checks, debug failures"
-          - "**Tech Stack:** LangChain, LangGraph, Python, PostgreSQL,
-            Streamlit, Docker, OpenAI/Ollama, GitHub Actions"
-          - "**Business Impact:** Reduced mean-time-to-resolution for pipeline
-            failures by 70%, automated 90% of routine monitoring tasks"
-
-      - name: Atlas Analytics Platform
-        link: https://github.com/OssamaTaha/atlas-analytics-platform
-        highlights:
-          - "**Problem:** Enterprise needed unified analytics platform for
-            multi-department data visibility"
-          - "**Process:** Built full-stack platform with Python backend,
-            real-time ETL pipelines, and interactive dashboards"
-          - "**Solution:** Deployed production system with role-based access
-            control, automated data sync, and real-time reporting"
-          - "**Tech Stack:** Python, PostgreSQL, Docker, AWS EC2/S3, Streamlit"
-          - "**Business Impact:** Enabled data-driven decisions across 3
-            departments, reduced manual reporting by 80%"
+          - "**Problem:** Batch processing couldn't meet real-time analytics
+            requirements for stock monitoring and operational telemetry"
+          - "**Process:** Built event-driven architecture with Kafka producers,
+            consumer groups, windowed aggregation, and dead letter queues for
+            fault tolerance"
+          - "**Solution:** Real-time pipeline processing 1000+ events per second
+            with live dashboard, automated alerting, and PostgreSQL persistence"
+          - "**Business Impact:** Sub-second data latency, automated threshold
+            alerting, real-time operational visibility across monitored systems"
 
     skills:
-      - label: Programming & Scripting
-        details: Python, SQL, Bash, JavaScript, TypeScript, HTML/CSS
-      - label: Data Engineering
-        details: ETL/ELT Pipelines, Apache Airflow, Apache Spark, Apache Kafka, Hadoop,
-          dbt, Data Modeling (Star Schema), PostgreSQL, MySQL, SQLite
+      - label: BI & Data Visualization
+        details: Power BI, DAX, Tableau, Excel, Streamlit, Plotly, Dash
+      - label: Data Pipeline & Architecture
+        details: ETL/ELT Pipelines, Apache Airflow, dbt, Apache Spark, Kafka, Data
+          Modeling (Star Schema), PostgreSQL, MySQL
       - label: Cloud & Infrastructure
         details: AWS (S3, Glue, Athena, Lambda, Step Functions, EC2), Terraform, Docker,
           Docker Compose, Linux Server Administration, Nginx, GitHub Actions
           (CI/CD)
-      - label: BI & Visualization
-        details: Power BI, DAX, Tableau, Excel, Dash, Streamlit, Plotly
+      - label: Programming & Scripting
+        details: Python, SQL, Bash, JavaScript, TypeScript, HTML/CSS
       - label: AI & Machine Learning
         details: LangChain, LangGraph, Hugging Face Transformers, Scikit-learn,
           TensorFlow, NLP, Local LLM Deployment
@@ -163,26 +175,21 @@ cv:
         end_date: 2023-06
         highlights:
           - Self-taught in programming, data engineering, and cloud technologies
-            through professional certifications
+            through professional certifications and hands-on projects
 
     certifications:
-      - name: AWS Certified Data Engineer – Associate (In Progress)
-        link: https://www.coursera.org/account/accomplishments/specialization/FBWPLGLDYABW
-        highlights: []
-      - name: "IBM AI Engineering Professional Certificate (In Progress)"
-        highlights: []
-      - name: "IBM Data Engineer Professional Certificate"
-        link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
-        highlights:
-          - Covered ETL pipelines, data warehousing, big data technologies
-            (Spark, Hadoop, Kafka), and cloud deployment —
-            [Verify](https://www.coursera.org/account/accomplishments/specialization/certificate/IY9SQERPCDQ7)
       - name: "Google Data Analytics Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G
         highlights:
           - Trained in data cleaning, analysis, visualization, and storytelling
             using spreadsheets, SQL, Tableau, and R programming —
             [Verify](https://www.coursera.org/account/accomplishments/specialization/certificate/Y35CJWQ37Y2G)
+      - name: "IBM Data Engineer Professional Certificate"
+        link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
+        highlights:
+          - Covered ETL pipelines, data warehousing, big data technologies
+            (Spark, Hadoop, Kafka), and cloud deployment —
+            [Verify](https://www.coursera.org/account/accomplishments/specialization/certificate/IY9SQERPCDQ7)
       - name: "IBM Data Science Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG
         highlights:
@@ -192,9 +199,17 @@ cv:
       - name: Samsung Innovation Campus Big Data Engineering Certificate
         highlights:
           - '"**Top Achiever (#1)** in the Big Data Engineering track"'
-          - '"Completed intensive training in big data
-            infrastructure,distributed computing, and data engineering
-            fundamentals"'
+          - '"Completed intensive training in big data infrastructure, distributed
+            computing, and data engineering fundamentals"'
+      - name: AWS Certified Data Engineer – Associate
+        link: https://www.coursera.org/account/accomplishments/specialization/FBWPLGLDYABW
+        highlights:
+          - "AWS data engineering fundamentals — S3, Glue, Athena, Lambda, Step
+            Functions, and infrastructure-as-code with Terraform (In Progress)"
+      - name: iMBA Business Analysis Specialization (In Progress)
+        highlights:
+          - "Coursera iMBA track from UIUC — business process modeling,
+            requirements engineering, and data-driven decision frameworks"
 
     languages:
       - label: Languages
