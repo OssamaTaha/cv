@@ -130,31 +130,33 @@ cv:
         highlights:
           - Self-taught in programming, data engineering, and cloud technologies
             through professional certifications and hands-on projects
+          - Coursework in financial accounting, cost accounting, managerial accounting,
+            business statistics, and financial statement analysis
 
     certifications:
       - name: "Google Data Analytics Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G
         highlights:
-          - Data cleaning, analysis, visualization with spreadsheets, SQL, Tableau, and R
+          - Data cleaning, analysis, visualization, and storytelling using spreadsheets, SQL, Tableau, and R
       - name: "IBM Data Engineer Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
         highlights:
-          - ETL pipelines, data warehousing, big data (Spark, Hadoop, Kafka), cloud deployment
+          - ETL pipelines, data warehousing, big data technologies (Spark, Hadoop, Kafka), and cloud deployment
       - name: "IBM Data Science Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG
         highlights:
-          - Machine learning, data analysis, Python, SQL, applied data science capstone projects
+          - Machine learning, data analysis, Python, SQL, and applied data science capstone projects
       - name: Samsung Innovation Campus Big Data Engineering Certificate
         highlights:
           - '"**Top Achiever (#1)** in the Big Data Engineering track"'
-          - "Intensive training in big data infrastructure, distributed computing, and data engineering"
+          - "Intensive training in big data infrastructure, distributed computing, and data engineering fundamentals"
       - name: AWS Certified Data Engineer – Associate
         link: https://www.coursera.org/account/accomplishments/specialization/FBWPLGLDYABW
         highlights:
-          - "S3, Glue, Athena, Lambda, Step Functions, and Terraform (In Progress)"
+          - "AWS data engineering stack — S3, Glue, Athena, Lambda, Step Functions, and Terraform IaC (In Progress)"
       - name: iMBA Business Analysis Specialization (In Progress)
         highlights:
-          - "Coursera iMBA from UIUC — business process modeling, requirements engineering, data-driven decisions"
+          - "Coursera iMBA from UIUC — business process modeling, requirements engineering, and data-driven decision frameworks"
 
     languages:
       - label: Languages
@@ -183,7 +185,7 @@ design:
     top_note: rgb(120, 120, 120)
 
   typography:
-    line_spacing: 0.40em
+    line_spacing: 0.43em
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
@@ -237,7 +239,7 @@ design:
     space_below: 0.06cm
 
   sections:
-    allow_page_break: false
+    allow_page_break: true
     space_between_regular_entries: 0.3em
     space_between_text_based_entries: 0.15em
     show_time_spans_in:
@@ -247,7 +249,7 @@ design:
     date_and_location_width: 3.5cm
     side_space: 0.15cm
     space_between_columns: 0.08cm
-    allow_page_break: true
+    allow_page_break: false
     short_second_row: true
     summary:
       space_above: 0cm
