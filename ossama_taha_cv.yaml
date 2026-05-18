@@ -156,6 +156,10 @@ cv:
         highlights:
           - "Coursera iMBA from UIUC — business process modeling, requirements engineering, data-driven decisions"
 
+    languages:
+      - label: Languages
+        details: "Arabic: Native | English: Professional | Russian: Basic"
+
 design:
   theme: classic
 
@@ -179,7 +183,7 @@ design:
     top_note: rgb(120, 120, 120)
 
   typography:
-    line_spacing: 0.42em
+    line_spacing: 0.40em
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
@@ -189,7 +193,7 @@ design:
       connections: Roboto
       section_titles: Roboto
     font_size:
-      body: 9.5pt
+      body: 10pt
       name: 28pt
       headline: 19.8pt
       connections: 10pt
