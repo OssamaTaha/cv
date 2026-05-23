@@ -13,13 +13,13 @@ cv:
   sections:
     summary:
       - >
-        BI & Data Analytics professional with a B.Com in Accounting and 2+ years
-        of experience building production-grade data pipelines, automated reporting
-        systems, and executive dashboards. Proven track record of reducing reporting
-        cycles by 10x through end-to-end automation, enabling data-driven strategic
-        decisions for sales and operations teams. Combines deep business domain
-        knowledge with strong technical skills in Python, SQL, PostgreSQL, Apache
-        Airflow, dbt, and cloud infrastructure.
+        Business Intelligence & Data Analytics specialist with a B.Com in Accounting and 2+ years
+        of experience transforming raw data into actionable insights through automated reporting
+        systems, executive dashboards, and data-driven decision frameworks. Expert in designing
+        BI solutions that bridge technical implementation with business impact, reducing reporting
+        cycles by 10x while enabling sales and operations teams to make faster, informed decisions.
+        Combines strong business acumen with technical expertise in SQL, Python, Power BI, and
+        modern data stack technologies.
 
     experience:
       - company: Nile for Cables and Electronics
@@ -28,21 +28,11 @@ cv:
         start_date: 2024-11
         end_date: present
         highlights:
-          - "Reduced reporting cycle from days to hours by designing and deploying a
-            semi-realtime automated reporting system, directly improving sales team
-            responsiveness and strategic decision-making"
-          - "Led quarterly sales performance evaluations using consolidated KPIs,
-            providing actionable insights that drove revenue-focused business
-            decisions"
-          - "Built executive dashboards supporting sales forecasting and real-time
-            KPI monitoring, enabling stakeholders to track performance without
-            manual data pulls"
-          - "Designed end-to-end ETL pipelines using PostgreSQL and Dolt
-            (version-controlled SQL database), ensuring data integrity and audit
-            trail for critical financial metrics"
-          - "Developed a local AI chatbot using open-source LLMs for natural
-            language querying of business data, empowering non-technical
-            stakeholders to self-serve analytics"
+          - "Reduced reporting cycle from days to hours by designing and deploying a semi-realtime automated reporting system, directly improving sales team responsiveness and strategic decision-making"
+          - "Led quarterly sales performance evaluations using consolidated KPIs, providing actionable insights that drove revenue-focused business decisions"
+          - "Built executive dashboards supporting sales forecasting and real-time KPI monitoring, enabling stakeholders to track performance without manual data pulls"
+          - "Designed end-to-end ETL pipelines using PostgreSQL and Dolt (version-controlled SQL database), ensuring data integrity and audit trail for critical financial metrics"
+          - "Developed a local AI chatbot using open-source LLMs for natural language querying of business data, empowering non-technical stakeholders to self-serve analytics"
 
       - company: Samsung Innovation Campus
         position: Data Engineer
@@ -50,12 +40,9 @@ cv:
         start_date: 2024-07
         end_date: 2024-10
         highlights:
-          - "Developed scalable data processing workflows using Apache Spark and
-            Kafka, supporting business intelligence and analytical use cases"
-          - "Performed exploratory data analysis and feature engineering to enable
-            data-driven business insights"
-          - "Deployed production data workflows on AWS cloud infrastructure (EC2,
-            S3), ensuring reliable and cost-efficient operations"
+          - "Developed scalable data processing workflows using Apache Spark and Kafka, supporting business intelligence and analytical use cases"
+          - "Performed exploratory data analysis and feature engineering to enable data-driven business insights"
+          - "Deployed production data workflows on AWS cloud infrastructure (EC2, S3), ensuring reliable and cost-efficient operations"
 
     projects:
       - name: dbt Data Warehouse — Star Schema & Analytics Layer
@@ -103,21 +90,18 @@ cv:
     skills:
       - label: BI & Data Visualization
         details: Power BI, DAX, Tableau, Excel, Streamlit, Plotly, Dash
+      - label: Data Analysis & Interpretation
+        details: Statistical Analysis, Data Mining, Business Insights, KPI Development, Trend Analysis, Predictive Modeling
       - label: Data Pipeline & Architecture
-        details: ETL/ELT Pipelines, Apache Airflow, dbt, Apache Spark, Kafka, Data
-          Modeling (Star Schema), PostgreSQL, MySQL
+        details: ETL/ELT Pipelines, Apache Airflow, dbt, Apache Spark, Kafka, Data Modeling (Star Schema), PostgreSQL, MySQL
       - label: Cloud & Infrastructure
-        details: AWS (S3, Glue, Athena, Lambda, Step Functions, EC2), Terraform, Docker,
-          Docker Compose, Linux Server Administration, Nginx, GitHub Actions
-          (CI/CD)
+        details: AWS (S3, Glue, Athena, Lambda, Step Functions, EC2), Terraform, Docker, Docker Compose, Linux Server Administration, Nginx, GitHub Actions (CI/CD)
       - label: Programming & Scripting
         details: Python, SQL, Bash, JavaScript, TypeScript, HTML/CSS
       - label: AI & Machine Learning
-        details: LangChain, LangGraph, Hugging Face Transformers, Scikit-learn,
-          TensorFlow, NLP, Local LLM Deployment
+        details: LangChain, LangGraph, Hugging Face Transformers, Scikit-learn, TensorFlow, NLP, Local LLM Deployment
       - label: Data Quality & Monitoring
-        details: Great Expectations, Data Validation, Schema Testing, Anomaly Detection,
-          Pipeline Monitoring
+        details: Great Expectations, Data Validation, Schema Testing, Anomaly Detection, Pipeline Monitoring
       - label: Automation & Tools
         details: Git, n8n, OpenClaw, KiloCode, Hermes, Dolt, Jupyter, VS Code
 
@@ -128,10 +112,8 @@ cv:
         start_date: 2019-09
         end_date: 2023-06
         highlights:
-          - Self-taught in programming, data engineering, and cloud technologies
-            through professional certifications and hands-on projects
-          - Coursework in financial accounting, cost accounting, managerial accounting,
-            business statistics, and financial statement analysis
+          - Self-taught in programming, data engineering, and cloud technologies through professional certifications and hands-on projects
+          - Coursework in financial accounting, cost accounting, managerial accounting, business statistics, and financial statement analysis
 
     certifications:
       - name: "Google Data Analytics Professional Certificate"
@@ -148,15 +130,16 @@ cv:
           - Machine learning, data analysis, Python, SQL, and applied data science capstone projects
       - name: Samsung Innovation Campus Big Data Engineering Certificate
         highlights:
-          - '"**Top Achiever (#1)** in the Big Data Engineering track"'
+          - "**Top Achiever (#1)** in the Big Data Engineering track"
           - "Intensive training in big data infrastructure, distributed computing, and data engineering fundamentals"
       - name: AWS Certified Data Engineer – Associate
         link: https://www.coursera.org/account/accomplishments/specialization/FBWPLGLDYABW
         highlights:
           - "AWS data engineering stack — S3, Glue, Athena, Lambda, Step Functions, and Terraform IaC (In Progress)"
-      - name: iMBA Business Analysis Specialization (In Progress)
+      - name: Master of Business Administration (iMBA)
         highlights:
-          - "Coursera iMBA from UIUC — business process modeling, requirements engineering, and data-driven decision frameworks"
+          - "University of Illinois Gies College of Business"
+          - "Program includes specializations in Business Analytics, Financial Management, Strategic Leadership, and Managerial Economics"
 
     languages:
       - label: Languages
