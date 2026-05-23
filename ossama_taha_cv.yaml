@@ -168,7 +168,7 @@ design:
     top_note: rgb(120, 120, 120)
 
   typography:
-    line_spacing: 0.43em
+    line_spacing: 0.44em
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
@@ -178,7 +178,7 @@ design:
       connections: Roboto
       section_titles: Roboto
     font_size:
-      body: 10pt
+      body: 9.5pt
       name: 28pt
       headline: 19.8pt
       connections: 10pt
@@ -223,7 +223,7 @@ design:
 
   sections:
     allow_page_break: true
-    space_between_regular_entries: 0.3em
+    space_between_regular_entries: 0.2em
     space_between_text_based_entries: 0.15em
     show_time_spans_in:
       - experience
