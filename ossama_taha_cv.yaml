@@ -48,43 +48,37 @@ cv:
       - name: dbt Data Warehouse — Star Schema & Analytics Layer
         link: https://github.com/OssamaTaha/dbt-data-warehouse
         highlights:
-          - "**Problem:** Raw operational data lacked structure for analytics, forcing manual data wrangling for every report"
-          - "**Process & Solution:** Designed star schema with 15+ dbt models across staging/marts layers, SCD Type 2 tracking, incremental processing, and 99.9% data quality via automated testing"
+          - "Built star schema with 15+ dbt models (SCD Type 2, incremental processing) achieving 99.9% data quality"
           - "**Business Impact:** Reduced query complexity by 70%, eliminated manual data prep, enabled self-service analytics"
 
       - name: Atlas Analytics Platform
         link: https://github.com/OssamaTaha/atlas-analytics-platform
         highlights:
-          - "**Problem:** Siloed data across departments required manual updates with no unified visibility"
-          - "**Process & Solution:** Built full-stack platform with Python backend, automated ETL pipelines, role-based dashboards, deployed on AWS with CI/CD"
+          - "Built full-stack platform with Python backend, automated ETL, role-based dashboards on AWS"
           - "**Business Impact:** Enabled data-driven decisions across 3 departments, reduced manual reporting by 80%"
 
       - name: Airflow ETL Pipeline — Multi-Source Data Orchestration
         link: https://github.com/OssamaTaha/airflow-etl-pipeline
         highlights:
-          - "**Problem:** Manual API data extraction was error-prone with no scheduling or failure recovery"
-          - "**Process & Solution:** Designed 4 production DAGs with task dependencies, dynamic mapping, retry logic, extracting from 3 API sources into PostgreSQL with real-time monitoring"
+          - "Designed 4 production DAGs with dependencies, dynamic mapping, retry logic for 3 API sources"
           - "**Business Impact:** Fully automated daily/weekly ingestion with zero manual intervention"
 
       - name: Agentic AI Workflow — Multi-Agent DataOps Automation
         link: https://github.com/OssamaTaha/agentic-ai-workflow
         highlights:
-          - "**Problem:** Data operations required constant manual monitoring and debugging across multiple systems"
-          - "**Process & Solution:** Built multi-agent system with orchestrator pattern, 5 specialized agents, tool integration, and persistent memory using LangChain/LangGraph"
+          - "Built orchestrator-pattern multi-agent system with 5 specialized agents and persistent memory"
           - "**Business Impact:** Cut pipeline failure resolution time by 70%, automated 90% of routine monitoring"
 
       - name: AWS Cloud Data Pipeline — Serverless ETL with IaC
         link: https://github.com/OssamaTaha/aws-cloud-data-pipeline
         highlights:
-          - "**Problem:** On-premise infrastructure lacked scalability and cost efficiency for growing data"
-          - "**Process & Solution:** S3 data lake + Glue ETL + Athena queries + Step Functions orchestration, fully deployable via Terraform IaC"
+          - "Deployed serverless ETL: S3 data lake + Glue + Athena + Step Functions via Terraform IaC"
           - "**Business Impact:** 90% cost reduction vs traditional infra, sub-second query performance, zero server management"
 
       - name: Kafka Streaming Pipeline — Real-Time Data Processing
         link: https://github.com/OssamaTaha/kafka-streaming-pipeline
         highlights:
-          - "**Problem:** Batch processing couldn't meet real-time analytics needs for stock monitoring and telemetry"
-          - "**Process & Solution:** Event-driven architecture with Kafka producers, consumer groups, windowed aggregation, dead letter queues, live dashboard, and PostgreSQL sink"
+          - "Implemented event-driven architecture with Kafka producers, consumer groups, windowed aggregation"
           - "**Business Impact:** Sub-second data latency, automated threshold alerting, real-time operational visibility"
 
     skills:
