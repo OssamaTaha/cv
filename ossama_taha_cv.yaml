@@ -1,6 +1,6 @@
 cv:
   name: Ossama Taha
-  headline: Business Analyst | Stakeholder Management & Data-Driven Insights
+  headline: Business Analyst | Requirements, KPIs & Data Insights
   location: 6th of October City, Egypt
   email: ossama.y.taha@gmail.com
   phone: "+20 1026458878"
@@ -13,15 +13,11 @@ cv:
   sections:
     summary:
       - >
-        Business Analyst with a B.Com in Accounting and 2+ years of
-        experience at the intersection of business strategy and data. Proven
-        ability to elicit stakeholder requirements, define KPIs, and translate
-        complex business problems into actionable recommendations that drive
-        revenue and operational efficiency. Differentiator: deep hands-on
-        proficiency in SQL, Python, Power BI, and ETL — enabling me to not only
-        gather requirements but also validate them against real data, prototype
-        solutions, and measure outcomes independently. Currently pursuing CBAP
-        and SAP Business Analyst certifications.
+        Business Analyst (B.Com, Accounting) with 2+ years turning business
+        problems into data-backed decisions. Elicit stakeholder requirements,
+        define KPIs, and deliver insights that drive revenue and efficiency.
+        Hands-on in SQL, Python, and Power BI to validate requirements and
+        measure outcomes independently. Pursuing CBAP & SAP BA certifications.
 
     experience:
       - company: Nile for Cables and Electronics
@@ -30,11 +26,10 @@ cv:
         start_date: 2024-11
         end_date: present
         highlights:
-          - "Gathered requirements from sales leadership and designed a semi-realtime automated reporting system, cutting reporting cycles from days to hours and improving decision-making speed"
-          - "Facilitated quarterly business reviews with cross-functional stakeholders, consolidating KPIs into actionable recommendations that drove revenue-focused decisions"
-          - "Elicited executive reporting needs and delivered interactive Power BI dashboards for sales forecasting and real-time KPI monitoring, eliminating manual data pulls across 3 departments"
-          - "Defined data quality requirements and built end-to-end ETL pipelines using PostgreSQL and Dolt, ensuring audit compliance for critical financial metrics"
-          - "Conducted stakeholder interviews to identify data-accessibility pain points, then developed an AI-powered natural-language query tool using open-source LLMs, enabling non-technical users to self-serve analytics"
+          - "Gathered sales leadership requirements and built a semi-realtime automated reporting system, cutting reporting cycles from days to hours"
+          - "Facilitated quarterly business reviews, consolidating cross-functional KPIs into recommendations that drove revenue-focused decisions"
+          - "Delivered interactive Power BI dashboards for sales forecasting and real-time KPI monitoring, eliminating manual pulls across 3 departments"
+          - "Built audit-compliant ETL pipelines (PostgreSQL, Dolt) and an LLM-powered natural-language query tool enabling non-technical self-serve analytics"
 
       - company: Samsung Innovation Campus
         position: Data Engineer
@@ -42,115 +37,90 @@ cv:
         start_date: 2024-07
         end_date: 2024-10
         highlights:
-          - "Defined business requirements for BI and analytical use cases, then built scalable data processing workflows using Apache Spark and Kafka to deliver on them"
-          - "Performed exploratory data analysis and translated findings into business recommendations presented to stakeholders for review"
-          - "Documented deployment requirements and delivered production workflows on AWS (EC2, S3), ensuring reliable and cost-efficient operations"
+          - "Defined BI/analytics requirements and built Spark + Kafka data workflows to deliver on them"
+          - "Translated exploratory analysis into business recommendations and deployed production workflows on AWS (EC2, S3)"
 
     projects:
-      - name: Customer Segmentation & Retention Strategy — E-Commerce
+      - name: Customer Segmentation & Retention — E-Commerce
         link: https://github.com/OssamaTaha/ecommerce-customer-analysis
         highlights:
-          - "Defined the business problem with marketing stakeholders, then analyzed 500K+ transactions using RFM analysis, cohort retention, and purchasing pattern techniques"
-          - "**Business Impact:** Identified 3 high-value segments (68% of revenue), delivering a data-backed business case for targeted campaigns that improved retention by 23%"
+          - "Partnered with marketing to analyze 500K+ transactions via RFM, cohort, and purchasing-pattern analysis"
+          - "**Impact:** Identified 3 segments = 68% of revenue; business case lifted retention 23%"
 
-      - name: Executive KPI Dashboard — Sales Performance Monitoring
+      - name: Executive KPI Dashboard — Sales Performance
         link: https://github.com/OssamaTaha/sales-performance-dashboard
         highlights:
-          - "Elicited requirements from executive stakeholders and built an interactive Power BI dashboard tracking 15+ KPIs (revenue, conversion, sales velocity, territory performance)"
-          - "**Business Impact:** Replaced a 2-day manual reporting cycle with real-time access, enabling faster decisions on underperforming territories"
+          - "Elicited executive requirements; built Power BI dashboard tracking 15+ KPIs (revenue, conversion, sales velocity)"
+          - "**Impact:** Replaced 2-day manual cycle with real-time access for faster territory decisions"
 
-      - name: Churn Risk Analysis — Business Case & Retention Strategy
+      - name: Churn Risk Analysis — Retention Strategy
         link: https://github.com/OssamaTaha/churn-prediction-analysis
         highlights:
-          - "Built a predictive model (84% accuracy) using Python (scikit-learn, pandas) to identify at-risk customers and quantify churn drivers"
-          - "**Business Impact:** Presented top 5 churn drivers to stakeholders, enabling proactive retention strategies that reduced churn by an estimated 15%"
+          - "Modeled at-risk customers (84% accuracy, Python/scikit-learn) and quantified churn drivers"
+          - "**Impact:** Presented top 5 drivers to stakeholders; enabled retention plays cutting churn ~15%"
 
-      - name: A/B Testing & Conversion Optimization — E-Commerce Checkout
+      - name: A/B Testing & Conversion — Checkout Optimization
         link: https://github.com/OssamaTaha/ab-testing-framework
         highlights:
-          - "Designed 3 A/B tests for checkout flow optimization using statistical hypothesis testing (t-tests, chi-square)"
-          - "**Business Impact:** Validated 18% conversion lift, projecting $2.3M annual revenue increase — presented findings to product stakeholders"
+          - "Designed 3 A/B tests (t-tests, chi-square) for checkout flow optimization"
+          - "**Impact:** Validated 18% conversion lift; $2.3M projected annual revenue — presented to product"
 
-      - name: Data Warehouse & Self-Service Analytics — Star Schema Design
+      - name: Data Warehouse & Self-Service — Star Schema
         link: https://github.com/OssamaTaha/dbt-data-warehouse
         highlights:
-          - "Gathered analytics requirements from business users and built a star schema with 15+ dbt models (SCD Type 2, incremental processing) achieving 99.9% data quality"
-          - "**Business Impact:** Reduced query complexity by 70%, eliminated manual data prep, enabled self-service analytics"
-
-      - name: Atlas Analytics Platform — Cross-Department BI Solution
-        link: https://github.com/OssamaTaha/atlas-analytics-platform
-        highlights:
-          - "Gathered requirements from 3 departments and delivered a full-stack analytics platform with role-based dashboards on AWS"
-          - "**Business Impact:** Enabled data-driven decisions across 3 departments, reduced manual reporting by 80%"
+          - "Gathered user requirements; built star schema with 15+ dbt models (SCD2) at 99.9% data quality"
+          - "**Impact:** Cut query complexity 70%; eliminated manual prep, enabled self-service analytics"
 
     skills:
       - label: Business Analysis & Requirements
-        details: Requirements Elicitation, BRD/FRD Documentation, User Stories, Use
-          Cases, Gap Analysis, Process Mapping (BPMN), Stakeholder Management,
-          Feasibility Studies, UAT Coordination
+        details: Elicitation, BRD/FRD, User Stories, Use Cases, Gap Analysis,
+          BPMN, Stakeholder Management, UAT Coordination
       - label: Data Analysis & Business Intelligence
-        details: SQL (Advanced), Python (pandas, NumPy, scikit-learn), Statistical
-          Analysis, A/B Testing, Hypothesis Testing, Regression Analysis, Customer
-          Segmentation, Cohort Analysis, RFM Analysis
-      - label: Data Visualization & Reporting
-        details: Power BI (DAX, Power Query), Tableau, Excel (Pivot Tables, VBA, Power
-          Pivot), Plotly, Matplotlib, Seaborn
+        details: SQL (Advanced), Python (pandas, scikit-learn), A/B & Hypothesis
+          Testing, Segmentation, Cohort, RFM
+      - label: Visualization & Reporting
+        details: Power BI (DAX, Power Query), Tableau, Excel (Pivot, VBA), Plotly
       - label: Business & Domain Expertise
-        details: KPI Development, Sales Analytics, Financial Analysis, Marketing
-          Analytics, Churn Analysis, Forecasting, Business Storytelling
+        details: KPI Development, Sales/Financial/Marketing Analytics, Churn,
+          Forecasting, Business Storytelling
       - label: Data Engineering & Databases
-        details: PostgreSQL, MySQL, ETL/ELT Pipelines, Apache Airflow, dbt, Data
-          Modeling (Star Schema), Data Warehousing
-      - label: Programming & Scripting
-        details: Python, SQL, Bash, JavaScript, Git
+        details: PostgreSQL, MySQL, ETL/ELT, Airflow, dbt, Star Schema, Warehousing
       - label: Cloud & Tools
-        details: AWS (S3, Glue, Athena, Lambda), Docker, Jupyter, VS Code, Google
-          Sheets, BigQuery
+        details: AWS (S3, Glue, Athena, Lambda), Docker, Git, Jupyter, BigQuery
 
     education:
       - institution: Al-Azhar University
-        area: "Accounting & Business Management "
+        area: "Accounting & Business Management"
         degree: B.com
         start_date: 2019-09
         end_date: 2023-06
         highlights:
-          - Self-taught in data analysis, SQL, Python, and business intelligence
-            through professional certifications and hands-on projects
-          - Coursework in financial accounting, cost accounting, managerial
-            accounting, business statistics, and financial statement analysis
+          - Self-taught in data analysis, SQL, Python, and BI via certifications
+            and hands-on projects
+          - Coursework in financial/managerial accounting, business statistics,
+            financial statement analysis
 
     certifications:
       - name: "Certified Business Analysis Professional™ (CBAP®) Specialization"
         highlights:
-          - "In Progress — Comprehensive business analysis frameworks, requirements elicitation, management, and evaluation"
+          - "In Progress — Requirements elicitation, management & evaluation"
       - name: "SAP Business Analyst Professional Certificate"
         highlights:
-          - "In Progress — SAP enterprise systems, business process integration, and data-driven business modeling"
+          - "In Progress — SAP enterprise systems & business process integration"
       - name: "Google Data Analytics Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G
         highlights:
-          - Data cleaning, analysis, visualization, and storytelling using
-            spreadsheets, SQL, Tableau, and R
+          - Data cleaning, analysis, visualization & storytelling (SQL, Tableau, R)
       - name: "IBM Data Science Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG
         highlights:
-          - Machine learning, data analysis, Python, SQL, and applied data
-            science capstone projects
-      - name: "IBM Data Engineer Professional Certificate"
-        link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
-        highlights:
-          - ETL pipelines, data warehousing, big data technologies (Spark,
-            Hadoop, Kafka), and cloud deployment
+          - Machine learning, data analysis, Python & SQL capstone projects
       - name: Samsung Innovation Campus Big Data Engineering Certificate
         highlights:
           - "**Top Achiever (#1)** in the Big Data Engineering track"
-          - "Intensive training in big data infrastructure, distributed
-            computing, and data engineering fundamentals"
       - name: Master of Business Administration (iMBA)
         highlights:
-          - "University of Illinois Gies College of Business"
-          - "Program includes specializations in Business Analytics, Financial
-            Management, Strategic Leadership, and Managerial Economics"
+          - "University of Illinois Gies — Business Analytics, Finance, Strategy"
 
     languages:
       - label: Languages
@@ -179,7 +149,7 @@ design:
     top_note: rgb(120, 120, 120)
 
   typography:
-    line_spacing: 0.42em
+    line_spacing: 0.46em
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
@@ -189,11 +159,11 @@ design:
       connections: Roboto
       section_titles: Roboto
     font_size:
-      body: 9pt
+      body: 9.8pt
       name: 28pt
       headline: 19.8pt
       connections: 10pt
-      section_titles: 15pt
+      section_titles: 15.5pt
     small_caps:
       name: true
       headline: true
@@ -234,7 +204,7 @@ design:
 
   sections:
     allow_page_break: true
-    space_between_regular_entries: 0.2em
+    space_between_regular_entries: 0.25em
     space_between_text_based_entries: 0.15em
     show_time_spans_in:
       - experience
