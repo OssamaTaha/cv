@@ -1,6 +1,6 @@
 cv:
   name: Ossama Taha
-  headline: BI & Data Analytics Engineer
+  headline: Business Analyst | Stakeholder Management & Data-Driven Insights
   location: 6th of October City, Egypt
   email: ossama.y.taha@gmail.com
   phone: "+20 1026458878"
@@ -13,13 +13,15 @@ cv:
   sections:
     summary:
       - >
-        Business Intelligence & Data Analytics specialist with a B.Com in Accounting and 2+ years
-        of experience transforming raw data into actionable insights through automated reporting
-        systems, executive dashboards, and data-driven decision frameworks. Expert in designing
-        BI solutions that bridge technical implementation with business impact, reducing reporting
-        cycles by 10x while enabling sales and operations teams to make faster, informed decisions.
-        Combines strong business acumen with technical expertise in SQL, Python, Power BI, and
-        modern data stack technologies.
+        Business Analyst with a B.Com in Accounting and 2+ years of
+        experience at the intersection of business strategy and data. Proven
+        ability to elicit stakeholder requirements, define KPIs, and translate
+        complex business problems into actionable recommendations that drive
+        revenue and operational efficiency. Differentiator: deep hands-on
+        proficiency in SQL, Python, Power BI, and ETL — enabling me to not only
+        gather requirements but also validate them against real data, prototype
+        solutions, and measure outcomes independently. Currently pursuing CBAP
+        and SAP Business Analyst certifications.
 
     experience:
       - company: Nile for Cables and Electronics
@@ -28,11 +30,11 @@ cv:
         start_date: 2024-11
         end_date: present
         highlights:
-          - "Reduced reporting cycle from days to hours by designing and deploying a semi-realtime automated reporting system, directly improving sales team responsiveness and strategic decision-making"
-          - "Led quarterly sales performance evaluations using consolidated KPIs, providing actionable insights that drove revenue-focused business decisions"
-          - "Built executive dashboards supporting sales forecasting and real-time KPI monitoring, enabling stakeholders to track performance without manual data pulls"
-          - "Designed end-to-end ETL pipelines using PostgreSQL and Dolt (version-controlled SQL database), ensuring data integrity and audit trail for critical financial metrics"
-          - "Developed a local AI chatbot using open-source LLMs for natural language querying of business data, empowering non-technical stakeholders to self-serve analytics"
+          - "Gathered requirements from sales leadership and designed a semi-realtime automated reporting system, cutting reporting cycles from days to hours and improving decision-making speed"
+          - "Facilitated quarterly business reviews with cross-functional stakeholders, consolidating KPIs into actionable recommendations that drove revenue-focused decisions"
+          - "Elicited executive reporting needs and delivered interactive Power BI dashboards for sales forecasting and real-time KPI monitoring, eliminating manual data pulls across 3 departments"
+          - "Defined data quality requirements and built end-to-end ETL pipelines using PostgreSQL and Dolt, ensuring audit compliance for critical financial metrics"
+          - "Conducted stakeholder interviews to identify data-accessibility pain points, then developed an AI-powered natural-language query tool using open-source LLMs, enabling non-technical users to self-serve analytics"
 
       - company: Samsung Innovation Campus
         position: Data Engineer
@@ -40,100 +42,115 @@ cv:
         start_date: 2024-07
         end_date: 2024-10
         highlights:
-          - "Developed scalable data processing workflows using Apache Spark and Kafka, supporting business intelligence and analytical use cases"
-          - "Performed exploratory data analysis and feature engineering to enable data-driven business insights"
-          - "Deployed production data workflows on AWS cloud infrastructure (EC2, S3), ensuring reliable and cost-efficient operations"
+          - "Defined business requirements for BI and analytical use cases, then built scalable data processing workflows using Apache Spark and Kafka to deliver on them"
+          - "Performed exploratory data analysis and translated findings into business recommendations presented to stakeholders for review"
+          - "Documented deployment requirements and delivered production workflows on AWS (EC2, S3), ensuring reliable and cost-efficient operations"
 
     projects:
-      - name: dbt Data Warehouse — Star Schema & Analytics Layer
+      - name: Customer Segmentation & Retention Strategy — E-Commerce
+        link: https://github.com/OssamaTaha/ecommerce-customer-analysis
+        highlights:
+          - "Defined the business problem with marketing stakeholders, then analyzed 500K+ transactions using RFM analysis, cohort retention, and purchasing pattern techniques"
+          - "**Business Impact:** Identified 3 high-value segments (68% of revenue), delivering a data-backed business case for targeted campaigns that improved retention by 23%"
+
+      - name: Executive KPI Dashboard — Sales Performance Monitoring
+        link: https://github.com/OssamaTaha/sales-performance-dashboard
+        highlights:
+          - "Elicited requirements from executive stakeholders and built an interactive Power BI dashboard tracking 15+ KPIs (revenue, conversion, sales velocity, territory performance)"
+          - "**Business Impact:** Replaced a 2-day manual reporting cycle with real-time access, enabling faster decisions on underperforming territories"
+
+      - name: Churn Risk Analysis — Business Case & Retention Strategy
+        link: https://github.com/OssamaTaha/churn-prediction-analysis
+        highlights:
+          - "Built a predictive model (84% accuracy) using Python (scikit-learn, pandas) to identify at-risk customers and quantify churn drivers"
+          - "**Business Impact:** Presented top 5 churn drivers to stakeholders, enabling proactive retention strategies that reduced churn by an estimated 15%"
+
+      - name: A/B Testing & Conversion Optimization — E-Commerce Checkout
+        link: https://github.com/OssamaTaha/ab-testing-framework
+        highlights:
+          - "Designed 3 A/B tests for checkout flow optimization using statistical hypothesis testing (t-tests, chi-square)"
+          - "**Business Impact:** Validated 18% conversion lift, projecting $2.3M annual revenue increase — presented findings to product stakeholders"
+
+      - name: Data Warehouse & Self-Service Analytics — Star Schema Design
         link: https://github.com/OssamaTaha/dbt-data-warehouse
         highlights:
-          - "Built star schema with 15+ dbt models (SCD Type 2, incremental processing) achieving 99.9% data quality"
+          - "Gathered analytics requirements from business users and built a star schema with 15+ dbt models (SCD Type 2, incremental processing) achieving 99.9% data quality"
           - "**Business Impact:** Reduced query complexity by 70%, eliminated manual data prep, enabled self-service analytics"
 
-      - name: Atlas Analytics Platform
+      - name: Atlas Analytics Platform — Cross-Department BI Solution
         link: https://github.com/OssamaTaha/atlas-analytics-platform
         highlights:
-          - "Built full-stack platform with Python backend, automated ETL, role-based dashboards on AWS"
+          - "Gathered requirements from 3 departments and delivered a full-stack analytics platform with role-based dashboards on AWS"
           - "**Business Impact:** Enabled data-driven decisions across 3 departments, reduced manual reporting by 80%"
 
-      - name: Airflow ETL Pipeline — Multi-Source Data Orchestration
-        link: https://github.com/OssamaTaha/airflow-etl-pipeline
-        highlights:
-          - "Designed 4 production DAGs with dependencies, dynamic mapping, retry logic for 3 API sources"
-          - "**Business Impact:** Fully automated daily/weekly ingestion with zero manual intervention"
-
-      - name: Agentic AI Workflow — Multi-Agent DataOps Automation
-        link: https://github.com/OssamaTaha/agentic-ai-workflow
-        highlights:
-          - "Built orchestrator-pattern multi-agent system with 5 specialized agents and persistent memory"
-          - "**Business Impact:** Cut pipeline failure resolution time by 70%, automated 90% of routine monitoring"
-
-      - name: AWS Cloud Data Pipeline — Serverless ETL with IaC
-        link: https://github.com/OssamaTaha/aws-cloud-data-pipeline
-        highlights:
-          - "Deployed serverless ETL: S3 data lake + Glue + Athena + Step Functions via Terraform IaC"
-          - "**Business Impact:** 90% cost reduction vs traditional infra, sub-second query performance, zero server management"
-
-      - name: Kafka Streaming Pipeline — Real-Time Data Processing
-        link: https://github.com/OssamaTaha/kafka-streaming-pipeline
-        highlights:
-          - "Implemented event-driven architecture with Kafka producers, consumer groups, windowed aggregation"
-          - "**Business Impact:** Sub-second data latency, automated threshold alerting, real-time operational visibility"
-
     skills:
-      - label: BI & Data Visualization
-        details: Power BI, DAX, Tableau, Excel, Streamlit, Plotly, Dash
-      - label: Data Analysis & Interpretation
-        details: Statistical Analysis, Data Mining, Business Insights, KPI Development, Trend Analysis, Predictive Modeling
-      - label: Data Pipeline & Architecture
-        details: ETL/ELT Pipelines, Apache Airflow, dbt, Apache Spark, Kafka, Data Modeling (Star Schema), PostgreSQL, MySQL
-      - label: Cloud & Infrastructure
-        details: AWS (S3, Glue, Athena, Lambda, Step Functions, EC2), Terraform, Docker, Docker Compose, Linux Server Administration, Nginx, GitHub Actions (CI/CD)
+      - label: Business Analysis & Requirements
+        details: Requirements Elicitation, BRD/FRD Documentation, User Stories, Use
+          Cases, Gap Analysis, Process Mapping (BPMN), Stakeholder Management,
+          Feasibility Studies, UAT Coordination
+      - label: Data Analysis & Business Intelligence
+        details: SQL (Advanced), Python (pandas, NumPy, scikit-learn), Statistical
+          Analysis, A/B Testing, Hypothesis Testing, Regression Analysis, Customer
+          Segmentation, Cohort Analysis, RFM Analysis
+      - label: Data Visualization & Reporting
+        details: Power BI (DAX, Power Query), Tableau, Excel (Pivot Tables, VBA, Power
+          Pivot), Plotly, Matplotlib, Seaborn
+      - label: Business & Domain Expertise
+        details: KPI Development, Sales Analytics, Financial Analysis, Marketing
+          Analytics, Churn Analysis, Forecasting, Business Storytelling
+      - label: Data Engineering & Databases
+        details: PostgreSQL, MySQL, ETL/ELT Pipelines, Apache Airflow, dbt, Data
+          Modeling (Star Schema), Data Warehousing
       - label: Programming & Scripting
-        details: Python, SQL, Bash, JavaScript, TypeScript, HTML/CSS
-      - label: AI & Machine Learning
-        details: LangChain, LangGraph, Hugging Face Transformers, Scikit-learn, TensorFlow, NLP, Local LLM Deployment
-      - label: Data Quality & Monitoring
-        details: Great Expectations, Data Validation, Schema Testing, Anomaly Detection, Pipeline Monitoring
-      - label: Automation & Tools
-        details: Git, n8n, OpenClaw, KiloCode, Hermes, Dolt, Jupyter, VS Code
+        details: Python, SQL, Bash, JavaScript, Git
+      - label: Cloud & Tools
+        details: AWS (S3, Glue, Athena, Lambda), Docker, Jupyter, VS Code, Google
+          Sheets, BigQuery
 
     education:
       - institution: Al-Azhar University
-        area: Accounting & Business Management
-        degree: Bachelor of Commerce
+        area: "Accounting & Business Management "
+        degree: B.com
         start_date: 2019-09
         end_date: 2023-06
         highlights:
-          - Self-taught in programming, data engineering, and cloud technologies through professional certifications and hands-on projects
-          - Coursework in financial accounting, cost accounting, managerial accounting, business statistics, and financial statement analysis
+          - Self-taught in data analysis, SQL, Python, and business intelligence
+            through professional certifications and hands-on projects
+          - Coursework in financial accounting, cost accounting, managerial
+            accounting, business statistics, and financial statement analysis
 
     certifications:
+      - name: "Certified Business Analysis Professional™ (CBAP®) Specialization"
+        highlights:
+          - "In Progress — Comprehensive business analysis frameworks, requirements elicitation, management, and evaluation"
+      - name: "SAP Business Analyst Professional Certificate"
+        highlights:
+          - "In Progress — SAP enterprise systems, business process integration, and data-driven business modeling"
       - name: "Google Data Analytics Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/Y35CJWQ37Y2G
         highlights:
-          - Data cleaning, analysis, visualization, and storytelling using spreadsheets, SQL, Tableau, and R
-      - name: "IBM Data Engineer Professional Certificate"
-        link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
-        highlights:
-          - ETL pipelines, data warehousing, big data technologies (Spark, Hadoop, Kafka), and cloud deployment
+          - Data cleaning, analysis, visualization, and storytelling using
+            spreadsheets, SQL, Tableau, and R
       - name: "IBM Data Science Professional Certificate"
         link: https://www.coursera.org/account/accomplishments/professional-cert/5UWB6GVS3ZWG
         highlights:
-          - Machine learning, data analysis, Python, SQL, and applied data science capstone projects
+          - Machine learning, data analysis, Python, SQL, and applied data
+            science capstone projects
+      - name: "IBM Data Engineer Professional Certificate"
+        link: https://www.coursera.org/account/accomplishments/professional-cert/IY9SQERPCDQ7
+        highlights:
+          - ETL pipelines, data warehousing, big data technologies (Spark,
+            Hadoop, Kafka), and cloud deployment
       - name: Samsung Innovation Campus Big Data Engineering Certificate
         highlights:
           - "**Top Achiever (#1)** in the Big Data Engineering track"
-          - "Intensive training in big data infrastructure, distributed computing, and data engineering fundamentals"
-      - name: AWS Certified Data Engineer – Associate
-        link: https://www.coursera.org/account/accomplishments/specialization/FBWPLGLDYABW
-        highlights:
-          - "AWS data engineering stack — S3, Glue, Athena, Lambda, Step Functions, and Terraform IaC (In Progress)"
+          - "Intensive training in big data infrastructure, distributed
+            computing, and data engineering fundamentals"
       - name: Master of Business Administration (iMBA)
         highlights:
           - "University of Illinois Gies College of Business"
-          - "Program includes specializations in Business Analytics, Financial Management, Strategic Leadership, and Managerial Economics"
+          - "Program includes specializations in Business Analytics, Financial
+            Management, Strategic Leadership, and Managerial Economics"
 
     languages:
       - label: Languages
@@ -153,16 +170,16 @@ design:
 
   colors:
     body: rgb(20, 20, 20)
-    name: rgb(0, 128, 255)
+    name: rgb(0, 79, 158)
     headline: rgb(80, 80, 80)
     connections: rgb(80, 80, 80)
-    section_titles: rgb(0, 128, 255)
+    section_titles: rgb(0, 79, 158)
     links: rgb(100, 100, 100)
     footer: rgb(120, 120, 120)
     top_note: rgb(120, 120, 120)
 
   typography:
-    line_spacing: 0.44em
+    line_spacing: 0.42em
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
@@ -172,7 +189,7 @@ design:
       connections: Roboto
       section_titles: Roboto
     font_size:
-      body: 9.5pt
+      body: 9pt
       name: 28pt
       headline: 19.8pt
       connections: 10pt
